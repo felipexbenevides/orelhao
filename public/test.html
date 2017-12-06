@@ -1,0 +1,115 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>HTML for Basic jQuery Setup</title>
+  <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("form").submit(function(evt){
+       evt.preventDefault();
+       var formData = new FormData($(this)[0]);
+       $.ajax({
+         url: '/music',
+         type: 'POST',
+         data: formData,
+         async: false,
+         cache: false,
+         contentType: false,
+         enctype: 'multipart/form-data',
+         processData: false,
+         success: function (response) {
+           alert('Arquivo carregado com sucesso!');
+         }
+       });
+       return false;
+     });
+    });
+    function enviarComando(comando){
+       $.ajax({
+         url: 'test/command/'+comando,
+         type: 'GET'
+       });
+    }
+    function carregar(elm){
+        $.ajax({
+            type: 'GET',
+            url: '/data',
+            dataType: 'json',
+            success: function(jsonData) {
+                $('#dados').val(JSON.stringify(jsonData));
+                alert('Carregado com sucesso.');
+            },
+            error: function() {
+                alert('Erro ao ler json no servidor');
+            }
+        });
+    }
+    function gravar(elm){
+        $.ajax({
+            type: 'POST',
+            url: '/data',
+            data: JSON.parse($('#dados').val()),
+            dataType: 'json',
+            success: function(jsonData) {
+                alert('Salvo com sucesso');
+            },
+            error: function() {
+                alert('Erro ao tentar salvar json');
+            }
+        });
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <table>
+      <tr>
+        <td colspan="2">File Upload</td>
+      </tr>
+      <tr>
+        <th>Select File </th>
+        <td><input id="music" name="music" type="file" /></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="submit"/>
+        </td>
+      </tr>
+    </table>
+  </form>
+  <button onclick="javascript: enviarComando('on');">Ligar</button>
+  <button onclick="javascript: enviarComando('off');">Desligar</button>
+  <table>
+    <tr>
+      <td><button onclick="javascript: enviarComando('A');">A</button></td>
+      <td><button onclick="javascript: enviarComando('1');">1</button></td>
+      <td><button onclick="javascript: enviarComando('2');">2</button></td>
+      <td><button onclick="javascript: enviarComando('3');">3</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="javascript: enviarComando('B');">B</button></td>
+      <td><button onclick="javascript: enviarComando('4');">4</button></td>
+      <td><button onclick="javascript: enviarComando('5');">5</button></td>
+      <td><button onclick="javascript: enviarComando('6');">6</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="javascript: enviarComando('C');">C</button></td>
+      <td><button onclick="javascript: enviarComando('7');">7</button></td>
+      <td><button onclick="javascript: enviarComando('8');">8</button></td>
+      <td><button onclick="javascript: enviarComando('9');">9</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="javascript: enviarComando('D');">D</button></td>
+      <td><button onclick="javascript: enviarComando('#');">#</button></td>
+      <td><button onclick="javascript: enviarComando('0');">0</button></td>
+      <td><button onclick="javascript: enviarComando('*');">*</button></td>
+    </tr>
+  </table>
+  <br>JSON dos dados<br>
+  <textarea id="dados" rows="10" cols="80"></textarea><br>
+  <button onclick="javascript: carregar(this);">Carregar</button>
+  <button onclick="javascript: gravar(this);">Gravar</button>
+</body>
+</html>
+
+

@@ -1,0 +1,81 @@
+Example app listening at http://0.0.0.0:8081
+Connected correctly to server
+Dados carregados do banco
+Gancho on
+Ligou
+Atualizando Status
+Executando: mplayer /home/pi/orelhao/music/menu_inicial.mp3
+Pressionou: 1
+Pressionou 1
+Atualizando Status
+Pausar audio
+Executando: mplayer /home/pi/orelhao/music/menu_portugues.mp3
+Pressionou: 9
+Pressionou 9
+Terminou mplayer
+Pressionou: 7
+Pressionou 7
+Atualizando Status
+Pausar audio
+Executando: mplayer /home/pi/orelhao/music/portugues7.mp3
+Terminou mplayer
+Example app listening at http://0.0.0.0:8081
+Connected correctly to server
+Dados carregados do banco
+Gancho off
+Gancho on
+Ligou
+Atualizando Status
+Executando: mplayer /home/pi/orelhao/music/menu_inicial.mp3
+Pressionou: 1
+Pressionou 1
+Atualizando Status
+Pausar audio
+Executando: mplayer /home/pi/orelhao/music/menu_portugues.mp3
+Terminou mplayer
+Pressionou: 5
+Pressionou 5
+Atualizando Status
+Pausar audio
+Executando: mplayer /home/pi/orelhao/music/portugues5.mp3
+Terminou mplayer
+Pressionou: 0
+Pressionou 0
+Atualizando Status
+Pausar audio
+Executando: mplayer /home/pi/orelhao/music/menu_portugues.mp3
+Terminou mplayer
+Pressionou: 7
+Pressionou 7
+Atualizando Status
+Pausar audio
+Executando: mplayer /home/pi/orelhao/music/portugues7.mp3
+Terminou mplayer
+Terminou mplayer
+Pressionou: 0
+Pressionou 0
+Atualizando Status
+Pausar audio
+Executando: mplayer /home/pi/orelhao/music/menu_portugues.mp3
+Pressionou: 0
+Pressionou 0
+Atualizando Status
+Pausar audio
+Executando: mplayer /home/pi/orelhao/music/menu_inicial.mp3
+Terminou mplayer
+Pressionou: 2
+Pressionou 2
+Atualizando Status
+Pausar audio
+Executando: mplayer /home/pi/orelhao/music/menu_ingles.mp3
+Terminou mplayer
+Pressionou: 7
+Pressionou 7
+Atualizando Status
+Pausar audio
+Executando: mplayer /home/pi/orelhao/music/ingles7.mp3
+Terminou mplayer
+Gancho off
+Desligou
+Pausar audio
+Terminou mplayer

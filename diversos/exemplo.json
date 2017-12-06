@@ -1,0 +1,33 @@
+{    
+    "orelhao" : [{
+        "nome":"Menu",
+        "audio":"pathName",
+        "botaoEntrar":"A",
+        "botaoVoltar":"0",
+        "filhos":[{
+            "nome":"Submenu",
+            "audio":"pathName2",
+            "botaoEntrar":"B",
+            "botaoVoltar":"0",
+            "filhos":[{
+                "nome":"Audio",
+                "audio":"pathName3",
+                "botaoEntrar":"C",
+                "botaoVoltar":"0",
+                "filhos":[] 
+            }]                        
+        },{
+            "nome":"Menu2",
+            "audio":"pathName4",
+            "botaoEntrar":"B",
+            "botaoVoltar":"0",
+            "filhos":[{
+                "nome":"Audio2",
+                "audio":"pathName5",
+                "botaoEntrar":"C",
+                "botaoVoltar":"0",
+                "filhos":[] 
+            }]                        
+        }]
+    }]     
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+
+        <link rel='shortcut icon' type='image/x-icon' href='.ico' />
+        <title></title>
+
+        <link href="css/metro.css" rel="stylesheet">
+        <link href="css/metro-icons.css" rel="stylesheet">
+        <link href="css/metro-responsive.css" rel="stylesheet">
+        <link href="css/metro-schemes.css" rel="stylesheet">
+        <link href="css/docs.css" rel="stylesheet">
+
+        <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/metro.js"></script>
+        <script src="js/ga.js"></script>
+        <script src="json/jsonQ.js"></script>
+        <script src="js/spahql-min.js"></script>
+
+        <style type="text/css">
+            .treeview{
+                margin: 10px 0px 10px 20px;
+            }
+            .disable{
+
+            }
+            .visor{
+                display: none;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container page-content no-padding-top">
+            <div class="app-bar" style="padding-left: 20px;" >
+                            <h3> ORELHAO CULTURAL</h3>
+            </div>        
+            <div class="flex-grid" style="margin-top:20px  ">
+                    <div class="row">
+                        <div class="cell colspan2 bottom-shadow" style="background-color: #FBFBFB;">
+                            <div class="treeview " data-role="treeview" id="treeview1">
+                            </div>    
+                            <script type="text/javascript">
+                                                
+                            </script>                            
+                        </div>
+                        <div class="cell colspan1" style="z-index: 1;">
+                            <!-- menu -->
+                            <ul class="t-menu vertical compact bottom-shadow">
+                                <li><a href="#" onclick="tree_add_leaf_runtime_example_click()"><span class="icon mif-plus"></span></a></li>
+                                <li><a href="#" onclick="tree_rem_leaf_runtime_example_click()"><span class="icon mif-minus"></span></a></li>
+                            </ul>          
+                            <!-- end menu  -->
+                        </div>
+                        <div class="cell auto-size bottom-shadow" style="background-color: #FBFBFB;">
+                            <div class="panel">
+                                <div class="heading">
+                                    <span class="title" id="titlePanel">Inicio</span>
+                                </div>
+                                <div class="content ">
+                                    <div class="padding20">
+                                        <ul class="step-list">
+                                            <li>
+                                                <h4 class="no-margin-top" id="titlePanel">Nome</h4>
+                                                <hr class="bg-black" />
+                                                <div class="nomeCampo">
+                                                    <div class="input-control text nomeInput" id="namePanel" style="">
+                                                        <input type="text" value=""  disabled>
+                                                    </div>                                    
+                                                    <br />
+                                                    <br />
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <form>
+                                                    <h4 class="no-margin-top" >Audio</h4>
+                                                    <hr class="bg-blue" />
+                                                    <div id="audioPanel">
+                                                        <div class="input-control file" data-role="input" >
+                                                            <input id="music" name="music" type="file" disabled>
+                                                            <button class="button"><span class="mif-folder"></span></button>
+
+                                                        </div>
+                                                        <input type="submit" value="Enviar"/>                                    
+                                                        <br />
+                                                        <!-- <button class="button"><span class="mif-file-download"></span></button> -->
+                                                        <label ></label>
+
+                                                        <br />
+                                                    </div>
+                                                </form>
+                                            </li>
+                                            <li>
+                                                <h4 class="no-margin-top" >Botão Entrar</h4>
+                                                <hr  class="bg-blue"/>
+                                                <div class="entraCampo">
+                                                    <div class="input-control text entraInput" style="width:50px;" id="button01Panel">
+                                                        <input type="text" value="" disabled>
+                                                    </div>                                    
+                                                    <br />
+                                                    <br />
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <h4 class="no-margin-top" >Botão Voltar</h4>
+                                                <hr  class="bg-blue"/>
+                                                <div class="voltaCampo">
+                                                    <div class="input-control text voltaInput" style="width:50px;" id="button02Panel">
+                                                        <input type="text" value="" disabled>
+                                                    </div>                                    
+                                                    <br />
+                                                </div>
+                                            </li>
+                                        
+                                                <li class="visor">
+                                                    <h4 class="no-margin-top" >Linha</h4>
+                                                    <hr  class="bg-green"/>
+                                                    <div class="">
+                                                            <div class="input-control select" id="linhaPanel" >
+                                                                <select disabled>
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                </select>
+                                                            </div>                                  
+                                                        <br />
+                                                    </div>
+                                                </li>
+                                                <li class="visor">
+                                                    <h4 class="no-margin-top" >Mensagem</h4>
+                                                    <hr  class="bg-green"/>
+                                                    <div class="voltaCampo">
+                                                        <div class="input-control text " style="width:400px;" id="mensagemPanel">
+                                                            <input type="text" value="" disabled>
+                                                        </div>                                    
+                                                        <br />
+                                                    </div>
+                                                </li>
+                                                <li class="visor">
+                                                    <h4 class="no-margin-top" >Rolagem</h4>
+                                                    <hr  class="bg-green"/>
+                                                    <div class="voltaCampo">
+                                                        <label class="switch-original">
+                                                            <input type="checkbox">
+                                                            <span class="check"></span>
+                                                        </label>                                                                                           
+                                                        <br />
+                                                    </div>
+                                                </li>
+                                           
+                                            <br>
+                                            <button class="image-button primary reloadPanel">
+                                                Recarregar
+                                                <span class="icon mif-undo bg-darkCobalt"></span>
+                                            </button>
+                                            <button class="image-button success savePanel">
+                                                Salvar
+                                                <span class="icon mif-floppy-disk bg-darkGreen"></span>
+                                            </button>                          
+                                        </ul>        
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+            </div>
+            <footer class=" align-center padding40">
+                <span class="">GM AUTOMAÇÃO</span>
+                <br>
+                <span class="text-small">Copyright 2016</span>
+            </footer>
+        </div>
+    </body>
+        <script src="js/gm.js"></script>
+</html>

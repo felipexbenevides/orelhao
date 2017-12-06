@@ -1,0 +1,75 @@
+
+/home/pi/orelhao/node_modules/multer/node_modules/mkdirp/index.js:90
+                    throw err0;
+                          ^
+Error: EACCES, permission denied '/music'
+    at Object.fs.mkdirSync (fs.js:651:18)
+    at Function.sync (/home/pi/orelhao/node_modules/multer/node_modules/mkdirp/index.js:71:13)
+    at new DiskStorage (/home/pi/orelhao/node_modules/multer/storage/disk.js:21:12)
+    at Function.module.exports [as diskStorage] (/home/pi/orelhao/node_modules/multer/storage/disk.js:65:10)
+    at Object.<anonymous> (/home/pi/orelhao/index.js:63:22)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+
+/home/pi/orelhao/node_modules/multer/node_modules/mkdirp/index.js:90
+                    throw err0;
+                          ^
+Error: EACCES, permission denied '/music'
+    at Object.fs.mkdirSync (fs.js:651:18)
+    at Function.sync (/home/pi/orelhao/node_modules/multer/node_modules/mkdirp/index.js:71:13)
+    at new DiskStorage (/home/pi/orelhao/node_modules/multer/storage/disk.js:21:12)
+    at Function.module.exports [as diskStorage] (/home/pi/orelhao/node_modules/multer/storage/disk.js:65:10)
+    at Object.<anonymous> (/home/pi/orelhao/index.js:63:22)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+
+/home/pi/orelhao/node_modules/multer/node_modules/mkdirp/index.js:90
+                    throw err0;
+                          ^
+Error: EACCES, permission denied '/music'
+    at Object.fs.mkdirSync (fs.js:651:18)
+    at Function.sync (/home/pi/orelhao/node_modules/multer/node_modules/mkdirp/index.js:71:13)
+    at new DiskStorage (/home/pi/orelhao/node_modules/multer/storage/disk.js:21:12)
+    at Function.module.exports [as diskStorage] (/home/pi/orelhao/node_modules/multer/storage/disk.js:65:10)
+    at Object.<anonymous> (/home/pi/orelhao/index.js:63:22)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+
+/home/pi/orelhao/node_modules/multer/node_modules/mkdirp/index.js:90
+                    throw err0;
+                          ^
+Error: EACCES, permission denied '/music'
+    at Object.fs.mkdirSync (fs.js:651:18)
+    at Function.sync (/home/pi/orelhao/node_modules/multer/node_modules/mkdirp/index.js:71:13)
+    at new DiskStorage (/home/pi/orelhao/node_modules/multer/storage/disk.js:21:12)
+    at Function.module.exports [as diskStorage] (/home/pi/orelhao/node_modules/multer/storage/disk.js:65:10)
+    at Object.<anonymous> (/home/pi/orelhao/index.js:63:22)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+
+/home/pi/orelhao/node_modules/multer/node_modules/mkdirp/index.js:90
+                    throw err0;
+                          ^
+Error: EACCES, permission denied '/music'
+    at Object.fs.mkdirSync (fs.js:651:18)
+    at Function.sync (/home/pi/orelhao/node_modules/multer/node_modules/mkdirp/index.js:71:13)
+    at new DiskStorage (/home/pi/orelhao/node_modules/multer/storage/disk.js:21:12)
+    at Function.module.exports [as diskStorage] (/home/pi/orelhao/node_modules/multer/storage/disk.js:65:10)
+    at Object.<anonymous> (/home/pi/orelhao/index.js:63:22)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)

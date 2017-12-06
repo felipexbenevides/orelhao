@@ -1,0 +1,5 @@
+TypeError: Cannot read property '0' of undefined
+    at Object.orelhao.updateState (/home/pi/orelhao/index.js:356:46)
+    at Object.orelhao.on (/home/pi/orelhao/index.js:351:14)
+    at Object.<anonymous> (/home/pi/orelhao/index.js:312:34)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
