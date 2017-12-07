@@ -1,0 +1,2662 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'speaker' ]
+2 info using npm@1.4.21
+3 info using node@v4.8.2
+4 warn package.json orelhao@1.0.0 No README data
+5 warn package.json pcm-volume@1.0.0 No license field.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'speaker@^0.3.0', null ]
+8 verbose cache add name=undefined spec="speaker@^0.3.0" args=["speaker@^0.3.0",null]
+9 verbose parsed url Url {
+9 verbose parsed url   protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'speaker@%5E0.3.0',
+9 verbose parsed url   path: 'speaker@%5E0.3.0',
+9 verbose parsed url   href: 'speaker@%5E0.3.0' }
+10 verbose cache add name="speaker" spec="^0.3.0" args=["speaker","^0.3.0"]
+11 verbose parsed url Url {
+11 verbose parsed url   protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: '%5E0.3.0',
+11 verbose parsed url   path: '%5E0.3.0',
+11 verbose parsed url   href: '%5E0.3.0' }
+12 verbose addNamed [ 'speaker', '^0.3.0' ]
+13 verbose addNamed [ null, '>=0.3.0 <0.4.0' ]
+14 silly lockFile 2e117032-speaker-0-3-0 speaker@^0.3.0
+15 verbose lock speaker@^0.3.0 /root/.npm/2e117032-speaker-0-3-0.lock
+16 silly addNameRange { name: 'speaker', range: '>=0.3.0 <0.4.0', hasData: false }
+17 verbose request where is /speaker
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id b7d2a8e2ee7c20b0
+20 verbose url raw /speaker
+21 verbose url resolving [ 'https://registry.npmjs.org/', './speaker' ]
+22 verbose url resolved https://registry.npmjs.org/speaker
+23 verbose request where is https://registry.npmjs.org/speaker
+24 info trying registry request attempt 1 at 23:42:54
+25 http GET https://registry.npmjs.org/speaker
+26 http 200 https://registry.npmjs.org/speaker
+27 silly registry.get cb [ 200,
+27 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+27 silly registry.get     server: 'UploadServer',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'last-modified': 'Sat, 28 Oct 2017 1:49:32 GMT',
+27 silly registry.get     etag: '"59f3e22c-8592"',
+27 silly registry.get     'content-length': '34194',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Wed, 06 Dec 2017 23:42:56 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'close',
+27 silly registry.get     'x-served-by': 'cache-gru17126-GRU',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1512603777.691455,VS0,VE229',
+27 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+28 silly addNameRange number 2 { name: 'speaker', range: '>=0.3.0 <0.4.0', hasData: true }
+29 silly addNameRange versions [ 'speaker',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '0.0.6',
+29 silly addNameRange     '0.0.7',
+29 silly addNameRange     '0.0.8',
+29 silly addNameRange     '0.0.9',
+29 silly addNameRange     '0.0.10',
+29 silly addNameRange     '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.5',
+29 silly addNameRange     '0.2.6',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.4.0' ] ]
+30 verbose addNamed [ 'speaker', '0.3.1' ]
+31 verbose addNamed [ '0.3.1', '0.3.1' ]
+32 silly lockFile 65188150-speaker-0-3-1 speaker@0.3.1
+33 verbose lock speaker@0.3.1 /root/.npm/65188150-speaker-0-3-1.lock
+34 silly lockFile ca88620a-js-org-speaker-speaker-0-3-1-tgz https://registry.npmjs.org/speaker/-/speaker-0.3.1.tgz
+35 verbose lock https://registry.npmjs.org/speaker/-/speaker-0.3.1.tgz /root/.npm/ca88620a-js-org-speaker-speaker-0-3-1-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/speaker/-/speaker-0.3.1.tgz',
+36 verbose addRemoteTarball   '19965f87b54be291554826c2c9338e0afd5b7594' ]
+37 info retry fetch attempt 1 at 23:42:57
+38 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/speaker/-/speaker-0.3.1.tgz
+39 http GET https://registry.npmjs.org/speaker/-/speaker-0.3.1.tgz
+40 http 200 https://registry.npmjs.org/speaker/-/speaker-0.3.1.tgz
+41 silly lockFile ca88620a-js-org-speaker-speaker-0-3-1-tgz https://registry.npmjs.org/speaker/-/speaker-0.3.1.tgz
+42 silly lockFile ca88620a-js-org-speaker-speaker-0-3-1-tgz https://registry.npmjs.org/speaker/-/speaker-0.3.1.tgz
+43 silly lockFile 65188150-speaker-0-3-1 speaker@0.3.1
+44 silly lockFile 65188150-speaker-0-3-1 speaker@0.3.1
+45 silly lockFile 2e117032-speaker-0-3-0 speaker@^0.3.0
+46 silly lockFile 2e117032-speaker-0-3-0 speaker@^0.3.0
+47 silly resolved [ { name: 'speaker',
+47 silly resolved     description: 'Output PCM audio data to the speakers',
+47 silly resolved     keywords:
+47 silly resolved      [ 'pcm',
+47 silly resolved        'audio',
+47 silly resolved        'sound',
+47 silly resolved        'music',
+47 silly resolved        'output',
+47 silly resolved        'speaker',
+47 silly resolved        'headphone',
+47 silly resolved        'alsa',
+47 silly resolved        'coreaudio',
+47 silly resolved        'openal',
+47 silly resolved        'sdl',
+47 silly resolved        'portaudio',
+47 silly resolved        'jack',
+47 silly resolved        'oss',
+47 silly resolved        'pulse',
+47 silly resolved        'mpg123' ],
+47 silly resolved     license: 'MIT',
+47 silly resolved     version: '0.3.1',
+47 silly resolved     author:
+47 silly resolved      { name: 'Nathan Rajlich',
+47 silly resolved        email: 'nathan@tootallnate.net',
+47 silly resolved        url: 'http://tootallnate.net' },
+47 silly resolved     repository:
+47 silly resolved      { type: 'git',
+47 silly resolved        url: 'git://github.com/TooTallNate/node-speaker.git' },
+47 silly resolved     bugs: { url: 'https://github.com/TooTallNate/node-speaker/issues' },
+47 silly resolved     homepage: 'https://github.com/TooTallNate/node-speaker',
+47 silly resolved     main: './index.js',
+47 silly resolved     scripts:
+47 silly resolved      { test: 'node-gyp rebuild --mpg123-backend=dummy && mocha --reporter spec',
+47 silly resolved        install: 'node-gyp rebuild' },
+47 silly resolved     dependencies:
+47 silly resolved      { bindings: '^1.2.1',
+47 silly resolved        debug: '^2.2.0',
+47 silly resolved        nan: '^2.2.0',
+47 silly resolved        'readable-stream': '^2.0.5' },
+47 silly resolved     devDependencies: { mocha: '^2.1.0' },
+47 silly resolved     gypfile: true,
+47 silly resolved     gitHead: '5a3064f1728f81e79ce6ce7ddbb79e9f9fcb34f4',
+47 silly resolved     _id: 'speaker@0.3.1',
+47 silly resolved     _npmVersion: '5.3.0',
+47 silly resolved     _nodeVersion: '8.4.0',
+47 silly resolved     _npmUser: { name: 'linusu', email: 'linus@folkdatorn.se' },
+47 silly resolved     dist:
+47 silly resolved      { integrity: 'sha512-LEqSy+FHYHPZj4kX8NHylzaOmy+VIqj57enm2GS4B568hj0SdKDYa9jALCGQy43LZa/JmQk1iF0nlMVbS1PfPg==',
+47 silly resolved        shasum: '19965f87b54be291554826c2c9338e0afd5b7594',
+47 silly resolved        tarball: 'https://registry.npmjs.org/speaker/-/speaker-0.3.1.tgz' },
+47 silly resolved     maintainers: [ [Object], [Object] ],
+47 silly resolved     _npmOperationalInternal:
+47 silly resolved      { host: 's3://npm-registry-packages',
+47 silly resolved        tmp: 'tmp/speaker-0.3.1.tgz_1503866783740_0.8062170846387744' },
+47 silly resolved     directories: {},
+47 silly resolved     _shasum: '19965f87b54be291554826c2c9338e0afd5b7594',
+47 silly resolved     _from: 'speaker@^0.3.0',
+47 silly resolved     _resolved: 'https://registry.npmjs.org/speaker/-/speaker-0.3.1.tgz' } ]
+48 info install speaker@0.3.1 into /home/pi/orelhao
+49 info installOne speaker@0.3.1
+50 verbose node_modules/speaker unbuild
+51 info preuninstall speaker@0.3.0
+52 info uninstall speaker@0.3.0
+53 verbose true,/home/pi/orelhao/node_modules,/home/pi/orelhao/node_modules unbuild speaker@0.3.0
+54 info postuninstall speaker@0.3.0
+55 verbose tar unpack /root/.npm/speaker/0.3.1/package.tgz
+56 silly lockFile e0e3605c--pi-orelhao-node-modules-speaker tar:///home/pi/orelhao/node_modules/speaker
+57 verbose lock tar:///home/pi/orelhao/node_modules/speaker /root/.npm/e0e3605c--pi-orelhao-node-modules-speaker.lock
+58 silly lockFile f2678186-ot-npm-speaker-0-3-1-package-tgz tar:///root/.npm/speaker/0.3.1/package.tgz
+59 verbose lock tar:///root/.npm/speaker/0.3.1/package.tgz /root/.npm/f2678186-ot-npm-speaker-0-3-1-package-tgz.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry .npmignore
+63 silly gunzTarPerm extractEntry README.md
+64 silly gunzTarPerm extractEntry index.js
+65 silly gunzTarPerm extractEntry appveyor.yml
+66 silly gunzTarPerm extractEntry binding.gyp
+67 silly gunzTarPerm extractEntry .travis.yml
+68 silly gunzTarPerm extractEntry deps/mpg123/README
+69 silly gunzTarPerm extractEntry deps/mpg123/configure.ac
+70 silly gunzTarPerm extractEntry deps/mpg123/ChangeLog
+71 silly gunzTarPerm extractEntry deps/mpg123/INSTALL
+72 silly gunzTarPerm extractEntry deps/mpg123/Makefile.am
+73 silly gunzTarPerm extractEntry deps/mpg123/Makefile.in
+74 silly gunzTarPerm extractEntry deps/mpg123/NEWS
+75 silly gunzTarPerm extractEntry deps/mpg123/NEWS.libmpg123
+76 silly gunzTarPerm extractEntry deps/mpg123/AUTHORS
+77 silly gunzTarPerm extractEntry deps/mpg123/TODO
+78 silly gunzTarPerm extractEntry deps/mpg123/aclocal.m4
+79 silly gunzTarPerm extractEntry deps/mpg123/config/freebsd/x64/config.h
+80 silly gunzTarPerm extractEntry deps/mpg123/config/freebsd/x64/mpg123.h
+81 silly gunzTarPerm extractEntry deps/mpg123/config/linux/arm/config.h
+82 silly gunzTarPerm extractEntry deps/mpg123/config/linux/arm/mpg123.h
+83 silly gunzTarPerm extractEntry deps/mpg123/config/linux/ia32/config.h
+84 silly gunzTarPerm extractEntry deps/mpg123/config/linux/ia32/mpg123.h
+85 silly gunzTarPerm extractEntry deps/mpg123/config/linux/x64/config.h
+86 silly gunzTarPerm extractEntry deps/mpg123/config/linux/x64/mpg123.h
+87 silly gunzTarPerm extractEntry deps/mpg123/config/mac/ia32/config.h
+88 silly gunzTarPerm extractEntry deps/mpg123/config/mac/ia32/mpg123.h
+89 silly gunzTarPerm extractEntry deps/mpg123/config/mac/x64/config.h
+90 silly gunzTarPerm extractEntry deps/mpg123/config/mac/x64/mpg123.h
+91 silly gunzTarPerm extractEntry deps/mpg123/config/solaris/ia32/config.h
+92 silly gunzTarPerm extractEntry deps/mpg123/config/solaris/ia32/mpg123.h
+93 silly gunzTarPerm extractEntry deps/mpg123/config/solaris/x64/config.h
+94 silly gunzTarPerm extractEntry deps/mpg123/config/solaris/x64/mpg123.h
+95 silly gunzTarPerm extractEntry deps/mpg123/config/win/ia32/config.h
+96 silly gunzTarPerm extractEntry deps/mpg123/config/win/ia32/mpg123.h
+97 silly gunzTarPerm extractEntry deps/mpg123/config/win/x64/config.h
+98 silly gunzTarPerm extractEntry deps/mpg123/config/win/x64/mpg123.h
+99 silly gunzTarPerm extractEntry deps/mpg123/configure
+100 silly gunzTarPerm extractEntry deps/mpg123/COPYING
+101 silly gunzTarPerm extractEntry deps/mpg123/equalize.dat
+102 silly gunzTarPerm extractEntry deps/mpg123/libmpg123.pc.in
+103 silly gunzTarPerm extractEntry deps/mpg123/m4/addrconfig.m4
+104 silly gunzTarPerm extractEntry deps/mpg123/m4/libtool.m4
+105 silly gunzTarPerm extractEntry deps/mpg123/m4/ltoptions.m4
+106 silly gunzTarPerm extractEntry deps/mpg123/m4/ltsugar.m4
+107 silly gunzTarPerm extractEntry deps/mpg123/m4/ltversion.m4
+108 silly gunzTarPerm extractEntry deps/mpg123/m4/lt~obsolete.m4
+109 silly gunzTarPerm extractEntry deps/mpg123/makedll.sh
+110 silly gunzTarPerm extractEntry deps/mpg123/man1/mpg123.1
+111 silly gunzTarPerm extractEntry deps/mpg123/mpg123.gyp
+112 silly gunzTarPerm extractEntry deps/mpg123/mpg123.spec
+113 silly gunzTarPerm extractEntry deps/mpg123/mpg123.spec.in
+114 silly gunzTarPerm extractEntry deps/mpg123/scripts/benchmark-cpu.pl
+115 silly gunzTarPerm extractEntry deps/mpg123/scripts/tag_lyrics.py
+116 silly gunzTarPerm extractEntry deps/mpg123/src/metaprint.h
+117 silly gunzTarPerm extractEntry deps/mpg123/src/Makefile.am
+118 silly gunzTarPerm extractEntry deps/mpg123/src/audio.c
+119 silly gunzTarPerm extractEntry deps/mpg123/src/audio.h
+120 silly gunzTarPerm extractEntry deps/mpg123/src/buffer.c
+121 silly gunzTarPerm extractEntry deps/mpg123/src/buffer.h
+122 silly gunzTarPerm extractEntry deps/mpg123/src/common.c
+123 silly gunzTarPerm extractEntry deps/mpg123/src/common.h
+124 silly gunzTarPerm extractEntry deps/mpg123/src/config.h.in
+125 silly gunzTarPerm extractEntry deps/mpg123/src/control_generic.c
+126 silly gunzTarPerm extractEntry deps/mpg123/src/equalizer.c
+127 silly gunzTarPerm extractEntry deps/mpg123/src/genre.c
+128 silly gunzTarPerm extractEntry deps/mpg123/src/genre.h
+129 silly gunzTarPerm extractEntry deps/mpg123/src/getlopt.c
+130 silly gunzTarPerm extractEntry deps/mpg123/src/getlopt.h
+131 silly gunzTarPerm extractEntry deps/mpg123/src/httpget.c
+132 silly gunzTarPerm extractEntry deps/mpg123/src/httpget.h
+133 silly gunzTarPerm extractEntry deps/mpg123/src/legacy_module.c
+134 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/mpg123lib_intern.h
+135 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/Makefile.am
+136 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/compat.c
+137 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/compat.h
+138 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct36_3dnow.S
+139 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct36_3dnowext.S
+140 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64.c
+141 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_3dnow.S
+142 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_3dnowext.S
+143 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_altivec.c
+144 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_i386.c
+145 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_i486.c
+146 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_mmx.S
+147 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_neon.S
+148 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_neon_float.S
+149 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_sse.S
+150 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_sse_float.S
+151 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_x86_64.S
+152 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dct64_x86_64_float.S
+153 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/debug.h
+154 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/decode.h
+155 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dither.c
+156 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/dither.h
+157 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/equalizer.c
+158 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/equalizer_3dnow.S
+159 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/feature.c
+160 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/format.c
+161 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/frame.c
+162 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/frame.h
+163 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/gapless.h
+164 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/getbits.h
+165 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/getcpuflags.S
+166 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/getcpuflags.h
+167 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/huffman.h
+168 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/icy.c
+169 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/icy.h
+170 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/icy2utf8.c
+171 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/icy2utf8.h
+172 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/id3.c
+173 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/id3.h
+174 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/index.c
+175 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/index.h
+176 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/intsym.h
+177 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/l12_integer_tables.h
+178 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/l2tables.h
+179 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/l3_integer_tables.h
+180 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/layer1.c
+181 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/layer2.c
+182 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/layer3.c
+183 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/lfs_alias.c
+184 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/lfs_wrap.c
+185 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/libmpg123.c
+186 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/mangle.h
+187 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/mpeghead.h
+188 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/mpg123.h.in
+189 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/Makefile.in
+190 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/ntom.c
+191 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/optimize.c
+192 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/optimize.h
+193 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/parse.c
+194 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/parse.h
+195 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/reader.h
+196 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/readers.c
+197 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/sample.h
+198 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/stringbuf.c
+199 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth.c
+200 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth.h
+201 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_3dnow.S
+202 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_3dnowext.S
+203 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_8bit.c
+204 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_8bit.h
+205 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_altivec.c
+206 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_arm.S
+207 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_arm_accurate.S
+208 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_i486.c
+209 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_i586.S
+210 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_i586_dither.S
+211 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_mmx.S
+212 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_mono.h
+213 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_neon.S
+214 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_neon_accurate.S
+215 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_neon_float.S
+216 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_neon_s32.S
+217 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_ntom.h
+218 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_real.c
+219 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_s32.c
+220 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_sse.S
+221 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_sse3d.h
+222 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_sse_accurate.S
+223 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_sse_float.S
+224 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_sse_s32.S
+225 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_neon.S
+226 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_neon_accurate.S
+227 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_neon_float.S
+228 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_neon_s32.S
+229 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_sse_accurate.S
+230 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_sse_float.S
+231 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_sse_s32.S
+232 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_x86_64.S
+233 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_x86_64_accurate.S
+234 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_x86_64_float.S
+235 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_stereo_x86_64_s32.S
+236 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_x86_64.S
+237 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_x86_64_accurate.S
+238 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_x86_64_float.S
+239 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synth_x86_64_s32.S
+240 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/synths.h
+241 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/tabinit.c
+242 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/tabinit_mmx.S
+243 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/testcpu.c
+244 silly gunzTarPerm extractEntry deps/mpg123/src/libmpg123/true.h
+245 silly gunzTarPerm extractEntry deps/mpg123/src/local.c
+246 silly gunzTarPerm extractEntry deps/mpg123/src/local.h
+247 silly gunzTarPerm extractEntry deps/mpg123/src/metaprint.c
+248 silly gunzTarPerm extractEntry deps/mpg123/src/Makefile.in
+249 silly gunzTarPerm extractEntry deps/mpg123/src/module.c
+250 silly gunzTarPerm extractEntry deps/mpg123/src/module.h
+251 silly gunzTarPerm extractEntry deps/mpg123/src/mpg123.c
+252 silly gunzTarPerm extractEntry deps/mpg123/src/mpg123app.h
+253 silly gunzTarPerm extractEntry deps/mpg123/src/output/nas.c
+254 silly gunzTarPerm extractEntry deps/mpg123/src/output/Makefile.am
+255 silly gunzTarPerm extractEntry deps/mpg123/src/output/aix.c
+256 silly gunzTarPerm extractEntry deps/mpg123/src/output/alib.c
+257 silly gunzTarPerm extractEntry deps/mpg123/src/output/alsa.c
+258 silly gunzTarPerm extractEntry deps/mpg123/src/output/arts.c
+259 silly gunzTarPerm extractEntry deps/mpg123/src/output/coreaudio.c
+260 silly gunzTarPerm extractEntry deps/mpg123/src/output/dummy.c
+261 silly gunzTarPerm extractEntry deps/mpg123/src/output/esd.c
+262 silly gunzTarPerm extractEntry deps/mpg123/src/output/hp.c
+263 silly gunzTarPerm extractEntry deps/mpg123/src/output/jack.c
+264 silly gunzTarPerm extractEntry deps/mpg123/src/output/mint.c
+265 silly gunzTarPerm extractEntry deps/mpg123/src/output/Makefile.in
+266 silly gunzTarPerm extractEntry deps/mpg123/src/output/openal.c
+267 silly gunzTarPerm extractEntry deps/mpg123/src/output/os2.c
+268 silly gunzTarPerm extractEntry deps/mpg123/src/output/oss.c
+269 silly gunzTarPerm extractEntry deps/mpg123/src/output/output.h
+270 silly gunzTarPerm extractEntry deps/mpg123/src/output/portaudio.c
+271 silly gunzTarPerm extractEntry deps/mpg123/src/output/pulse.c
+272 silly gunzTarPerm extractEntry deps/mpg123/src/output/sdl.c
+273 silly gunzTarPerm extractEntry deps/mpg123/src/output/sgi.c
+274 silly gunzTarPerm extractEntry deps/mpg123/src/output/sndio.c
+275 silly gunzTarPerm extractEntry deps/mpg123/src/output/sun.c
+276 silly gunzTarPerm extractEntry deps/mpg123/src/output/win32.c
+277 silly gunzTarPerm extractEntry deps/mpg123/src/output/win32_wasapi.c
+278 silly gunzTarPerm extractEntry deps/mpg123/src/playlist.c
+279 silly gunzTarPerm extractEntry deps/mpg123/src/playlist.h
+280 silly gunzTarPerm extractEntry deps/mpg123/src/resolver.c
+281 silly gunzTarPerm extractEntry deps/mpg123/src/resolver.h
+282 silly gunzTarPerm extractEntry deps/mpg123/src/sfifo.c
+283 silly gunzTarPerm extractEntry deps/mpg123/src/sfifo.h
+284 silly gunzTarPerm extractEntry deps/mpg123/src/streamdump.c
+285 silly gunzTarPerm extractEntry deps/mpg123/src/streamdump.h
+286 silly gunzTarPerm extractEntry deps/mpg123/src/term.c
+287 silly gunzTarPerm extractEntry deps/mpg123/src/term.h
+288 silly gunzTarPerm extractEntry deps/mpg123/src/wav.c
+289 silly gunzTarPerm extractEntry deps/mpg123/src/wavhead.h
+290 silly gunzTarPerm extractEntry deps/mpg123/src/win32_net.c
+291 silly gunzTarPerm extractEntry deps/mpg123/src/win32_support.c
+292 silly gunzTarPerm extractEntry deps/mpg123/src/win32_support.h
+293 silly gunzTarPerm extractEntry deps/mpg123/src/xfermem.c
+294 silly gunzTarPerm extractEntry deps/mpg123/src/xfermem.h
+295 silly gunzTarPerm extractEntry deps/mpg123/test.c
+296 silly gunzTarPerm extractEntry deps/mpg123/test_output.c
+297 silly gunzTarPerm extractEntry deps/mpg123/windows-builds.sh
+298 silly gunzTarPerm extractEntry examples/sine.js
+299 silly gunzTarPerm extractEntry examples/stdin.js
+300 silly gunzTarPerm extractEntry History.md
+301 silly gunzTarPerm extractEntry src/binding.cc
+302 silly gunzTarPerm extractEntry src/node_pointer.h
+303 silly gunzTarPerm extractEntry test/test.js
+304 silly lockFile e0e3605c--pi-orelhao-node-modules-speaker tar:///home/pi/orelhao/node_modules/speaker
+305 silly lockFile e0e3605c--pi-orelhao-node-modules-speaker tar:///home/pi/orelhao/node_modules/speaker
+306 silly lockFile f2678186-ot-npm-speaker-0-3-1-package-tgz tar:///root/.npm/speaker/0.3.1/package.tgz
+307 silly lockFile f2678186-ot-npm-speaker-0-3-1-package-tgz tar:///root/.npm/speaker/0.3.1/package.tgz
+308 info preinstall speaker@0.3.1
+309 verbose readDependencies using package.json deps
+310 verbose readDependencies using package.json deps
+311 verbose cache add [ 'nan@^2.2.0', null ]
+312 verbose cache add name=undefined spec="nan@^2.2.0" args=["nan@^2.2.0",null]
+313 verbose parsed url Url {
+313 verbose parsed url   protocol: null,
+313 verbose parsed url   slashes: null,
+313 verbose parsed url   auth: null,
+313 verbose parsed url   host: null,
+313 verbose parsed url   port: null,
+313 verbose parsed url   hostname: null,
+313 verbose parsed url   hash: null,
+313 verbose parsed url   search: null,
+313 verbose parsed url   query: null,
+313 verbose parsed url   pathname: 'nan@%5E2.2.0',
+313 verbose parsed url   path: 'nan@%5E2.2.0',
+313 verbose parsed url   href: 'nan@%5E2.2.0' }
+314 verbose cache add [ 'readable-stream@^2.0.5', null ]
+315 verbose cache add name=undefined spec="readable-stream@^2.0.5" args=["readable-stream@^2.0.5",null]
+316 verbose parsed url Url {
+316 verbose parsed url   protocol: null,
+316 verbose parsed url   slashes: null,
+316 verbose parsed url   auth: null,
+316 verbose parsed url   host: null,
+316 verbose parsed url   port: null,
+316 verbose parsed url   hostname: null,
+316 verbose parsed url   hash: null,
+316 verbose parsed url   search: null,
+316 verbose parsed url   query: null,
+316 verbose parsed url   pathname: 'readable-stream@%5E2.0.5',
+316 verbose parsed url   path: 'readable-stream@%5E2.0.5',
+316 verbose parsed url   href: 'readable-stream@%5E2.0.5' }
+317 verbose cache add [ 'bindings@^1.2.1', null ]
+318 verbose cache add name=undefined spec="bindings@^1.2.1" args=["bindings@^1.2.1",null]
+319 verbose parsed url Url {
+319 verbose parsed url   protocol: null,
+319 verbose parsed url   slashes: null,
+319 verbose parsed url   auth: null,
+319 verbose parsed url   host: null,
+319 verbose parsed url   port: null,
+319 verbose parsed url   hostname: null,
+319 verbose parsed url   hash: null,
+319 verbose parsed url   search: null,
+319 verbose parsed url   query: null,
+319 verbose parsed url   pathname: 'bindings@%5E1.2.1',
+319 verbose parsed url   path: 'bindings@%5E1.2.1',
+319 verbose parsed url   href: 'bindings@%5E1.2.1' }
+320 verbose cache add [ 'debug@^2.2.0', null ]
+321 verbose cache add name=undefined spec="debug@^2.2.0" args=["debug@^2.2.0",null]
+322 verbose parsed url Url {
+322 verbose parsed url   protocol: null,
+322 verbose parsed url   slashes: null,
+322 verbose parsed url   auth: null,
+322 verbose parsed url   host: null,
+322 verbose parsed url   port: null,
+322 verbose parsed url   hostname: null,
+322 verbose parsed url   hash: null,
+322 verbose parsed url   search: null,
+322 verbose parsed url   query: null,
+322 verbose parsed url   pathname: 'debug@%5E2.2.0',
+322 verbose parsed url   path: 'debug@%5E2.2.0',
+322 verbose parsed url   href: 'debug@%5E2.2.0' }
+323 verbose cache add name="nan" spec="^2.2.0" args=["nan","^2.2.0"]
+324 verbose parsed url Url {
+324 verbose parsed url   protocol: null,
+324 verbose parsed url   slashes: null,
+324 verbose parsed url   auth: null,
+324 verbose parsed url   host: null,
+324 verbose parsed url   port: null,
+324 verbose parsed url   hostname: null,
+324 verbose parsed url   hash: null,
+324 verbose parsed url   search: null,
+324 verbose parsed url   query: null,
+324 verbose parsed url   pathname: '%5E2.2.0',
+324 verbose parsed url   path: '%5E2.2.0',
+324 verbose parsed url   href: '%5E2.2.0' }
+325 verbose addNamed [ 'nan', '^2.2.0' ]
+326 verbose addNamed [ null, '>=2.2.0 <3.0.0' ]
+327 silly lockFile df706925-nan-2-2-0 nan@^2.2.0
+328 verbose lock nan@^2.2.0 /root/.npm/df706925-nan-2-2-0.lock
+329 verbose cache add name="readable-stream" spec="^2.0.5" args=["readable-stream","^2.0.5"]
+330 verbose parsed url Url {
+330 verbose parsed url   protocol: null,
+330 verbose parsed url   slashes: null,
+330 verbose parsed url   auth: null,
+330 verbose parsed url   host: null,
+330 verbose parsed url   port: null,
+330 verbose parsed url   hostname: null,
+330 verbose parsed url   hash: null,
+330 verbose parsed url   search: null,
+330 verbose parsed url   query: null,
+330 verbose parsed url   pathname: '%5E2.0.5',
+330 verbose parsed url   path: '%5E2.0.5',
+330 verbose parsed url   href: '%5E2.0.5' }
+331 verbose addNamed [ 'readable-stream', '^2.0.5' ]
+332 verbose addNamed [ null, '>=2.0.5 <3.0.0' ]
+333 silly lockFile 88736a45-readable-stream-2-0-5 readable-stream@^2.0.5
+334 verbose lock readable-stream@^2.0.5 /root/.npm/88736a45-readable-stream-2-0-5.lock
+335 verbose cache add name="bindings" spec="^1.2.1" args=["bindings","^1.2.1"]
+336 verbose parsed url Url {
+336 verbose parsed url   protocol: null,
+336 verbose parsed url   slashes: null,
+336 verbose parsed url   auth: null,
+336 verbose parsed url   host: null,
+336 verbose parsed url   port: null,
+336 verbose parsed url   hostname: null,
+336 verbose parsed url   hash: null,
+336 verbose parsed url   search: null,
+336 verbose parsed url   query: null,
+336 verbose parsed url   pathname: '%5E1.2.1',
+336 verbose parsed url   path: '%5E1.2.1',
+336 verbose parsed url   href: '%5E1.2.1' }
+337 verbose addNamed [ 'bindings', '^1.2.1' ]
+338 verbose addNamed [ null, '>=1.2.1 <2.0.0' ]
+339 silly lockFile b1a79860-bindings-1-2-1 bindings@^1.2.1
+340 verbose lock bindings@^1.2.1 /root/.npm/b1a79860-bindings-1-2-1.lock
+341 verbose cache add name="debug" spec="^2.2.0" args=["debug","^2.2.0"]
+342 verbose parsed url Url {
+342 verbose parsed url   protocol: null,
+342 verbose parsed url   slashes: null,
+342 verbose parsed url   auth: null,
+342 verbose parsed url   host: null,
+342 verbose parsed url   port: null,
+342 verbose parsed url   hostname: null,
+342 verbose parsed url   hash: null,
+342 verbose parsed url   search: null,
+342 verbose parsed url   query: null,
+342 verbose parsed url   pathname: '%5E2.2.0',
+342 verbose parsed url   path: '%5E2.2.0',
+342 verbose parsed url   href: '%5E2.2.0' }
+343 verbose addNamed [ 'debug', '^2.2.0' ]
+344 verbose addNamed [ null, '>=2.2.0 <3.0.0' ]
+345 silly lockFile 862c00aa-debug-2-2-0 debug@^2.2.0
+346 verbose lock debug@^2.2.0 /root/.npm/862c00aa-debug-2-2-0.lock
+347 silly addNameRange { name: 'nan', range: '>=2.2.0 <3.0.0', hasData: false }
+348 silly addNameRange { name: 'readable-stream',
+348 silly addNameRange   range: '>=2.0.5 <3.0.0',
+348 silly addNameRange   hasData: false }
+349 silly addNameRange { name: 'bindings', range: '>=1.2.1 <2.0.0', hasData: false }
+350 silly addNameRange { name: 'debug', range: '>=2.2.0 <3.0.0', hasData: false }
+351 verbose request where is /nan
+352 verbose request registry https://registry.npmjs.org/
+353 verbose url raw /nan
+354 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+355 verbose url resolved https://registry.npmjs.org/nan
+356 verbose request where is https://registry.npmjs.org/nan
+357 info trying registry request attempt 1 at 23:43:16
+358 http GET https://registry.npmjs.org/nan
+359 verbose request where is /readable-stream
+360 verbose request registry https://registry.npmjs.org/
+361 verbose url raw /readable-stream
+362 verbose url resolving [ 'https://registry.npmjs.org/', './readable-stream' ]
+363 verbose url resolved https://registry.npmjs.org/readable-stream
+364 verbose request where is https://registry.npmjs.org/readable-stream
+365 info trying registry request attempt 1 at 23:43:16
+366 http GET https://registry.npmjs.org/readable-stream
+367 verbose request where is /bindings
+368 verbose request registry https://registry.npmjs.org/
+369 verbose url raw /bindings
+370 verbose url resolving [ 'https://registry.npmjs.org/', './bindings' ]
+371 verbose url resolved https://registry.npmjs.org/bindings
+372 verbose request where is https://registry.npmjs.org/bindings
+373 info trying registry request attempt 1 at 23:43:16
+374 http GET https://registry.npmjs.org/bindings
+375 verbose request where is /debug
+376 verbose request registry https://registry.npmjs.org/
+377 verbose url raw /debug
+378 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+379 verbose url resolved https://registry.npmjs.org/debug
+380 verbose request where is https://registry.npmjs.org/debug
+381 info trying registry request attempt 1 at 23:43:16
+382 http GET https://registry.npmjs.org/debug
+383 http 200 https://registry.npmjs.org/bindings
+384 silly registry.get cb [ 200,
+384 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+384 silly registry.get     server: 'UploadServer',
+384 silly registry.get     'cache-control': 'max-age=300',
+384 silly registry.get     'last-modified': 'Tue, 28 Nov 2017 9:53:09 GMT',
+384 silly registry.get     etag: '"5a1d3205-4c42"',
+384 silly registry.get     'content-length': '19522',
+384 silly registry.get     'accept-ranges': 'bytes',
+384 silly registry.get     date: 'Wed, 06 Dec 2017 23:43:17 GMT',
+384 silly registry.get     via: '1.1 varnish',
+384 silly registry.get     age: '1831',
+384 silly registry.get     connection: 'close',
+384 silly registry.get     'x-served-by': 'cache-gru17131-GRU',
+384 silly registry.get     'x-cache': 'HIT',
+384 silly registry.get     'x-cache-hits': '1',
+384 silly registry.get     'x-timer': 'S1512603797.232489,VS0,VE1',
+384 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+385 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.1 <2.0.0', hasData: true }
+386 silly addNameRange versions [ 'bindings',
+386 silly addNameRange   [ '0.0.1',
+386 silly addNameRange     '0.1.0',
+386 silly addNameRange     '0.1.1',
+386 silly addNameRange     '0.2.0',
+386 silly addNameRange     '0.2.1',
+386 silly addNameRange     '0.2.2',
+386 silly addNameRange     '0.2.3',
+386 silly addNameRange     '0.2.4',
+386 silly addNameRange     '0.3.0',
+386 silly addNameRange     '0.4.0',
+386 silly addNameRange     '1.0.0',
+386 silly addNameRange     '1.1.0',
+386 silly addNameRange     '1.1.1',
+386 silly addNameRange     '1.2.0',
+386 silly addNameRange     '1.2.1',
+386 silly addNameRange     '1.3.0' ] ]
+387 verbose addNamed [ 'bindings', '1.3.0' ]
+388 verbose addNamed [ '1.3.0', '1.3.0' ]
+389 silly lockFile e7c26552-bindings-1-3-0 bindings@1.3.0
+390 verbose lock bindings@1.3.0 /root/.npm/e7c26552-bindings-1-3-0.lock
+391 silly lockFile 6317a512--org-bindings-bindings-1-3-0-tgz https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz
+392 verbose lock https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz /root/.npm/6317a512--org-bindings-bindings-1-3-0-tgz.lock
+393 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz',
+393 verbose addRemoteTarball   'b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7' ]
+394 info retry fetch attempt 1 at 23:43:17
+395 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/bindings/-/bindings-1.3.0.tgz
+396 http GET https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz
+397 http 200 https://registry.npmjs.org/debug
+398 silly registry.get cb [ 200,
+398 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+398 silly registry.get     server: 'UploadServer',
+398 silly registry.get     'cache-control': 'max-age=300',
+398 silly registry.get     'last-modified': 'Wed, 6 Dec 2017 12:45:21 GMT',
+398 silly registry.get     etag: '"5a27e661-1911c"',
+398 silly registry.get     'content-length': '102684',
+398 silly registry.get     'accept-ranges': 'bytes',
+398 silly registry.get     date: 'Wed, 06 Dec 2017 23:43:17 GMT',
+398 silly registry.get     via: '1.1 varnish',
+398 silly registry.get     age: '3391',
+398 silly registry.get     connection: 'close',
+398 silly registry.get     'x-served-by': 'cache-gru17126-GRU',
+398 silly registry.get     'x-cache': 'HIT',
+398 silly registry.get     'x-cache-hits': '69',
+398 silly registry.get     'x-timer': 'S1512603797.243527,VS0,VE0',
+398 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+399 http 200 https://registry.npmjs.org/readable-stream
+400 silly registry.get cb [ 200,
+400 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+400 silly registry.get     server: 'UploadServer',
+400 silly registry.get     'cache-control': 'max-age=300',
+400 silly registry.get     'last-modified': 'Tue, 26 Sep 2017 12:55:32 GMT',
+400 silly registry.get     etag: '"59ca4e44-19872"',
+400 silly registry.get     'content-length': '104562',
+400 silly registry.get     'accept-ranges': 'bytes',
+400 silly registry.get     date: 'Wed, 06 Dec 2017 23:43:17 GMT',
+400 silly registry.get     via: '1.1 varnish',
+400 silly registry.get     age: '951',
+400 silly registry.get     connection: 'close',
+400 silly registry.get     'x-served-by': 'cache-gru17126-GRU',
+400 silly registry.get     'x-cache': 'HIT',
+400 silly registry.get     'x-cache-hits': '20',
+400 silly registry.get     'x-timer': 'S1512603797.325475,VS0,VE0',
+400 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+401 http 200 https://registry.npmjs.org/nan
+402 silly registry.get cb [ 200,
+402 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+402 silly registry.get     server: 'UploadServer',
+402 silly registry.get     'cache-control': 'max-age=300',
+402 silly registry.get     'last-modified': 'Wed, 15 Nov 2017 11:34:24 GMT',
+402 silly registry.get     etag: '"5a0c2640-20c10"',
+402 silly registry.get     'content-length': '134160',
+402 silly registry.get     'accept-ranges': 'bytes',
+402 silly registry.get     date: 'Wed, 06 Dec 2017 23:43:17 GMT',
+402 silly registry.get     via: '1.1 varnish',
+402 silly registry.get     age: '3012',
+402 silly registry.get     connection: 'close',
+402 silly registry.get     'x-served-by': 'cache-gru17129-GRU',
+402 silly registry.get     'x-cache': 'HIT',
+402 silly registry.get     'x-cache-hits': '2',
+402 silly registry.get     'x-timer': 'S1512603797.235042,VS0,VE0',
+402 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+403 silly addNameRange number 2 { name: 'debug', range: '>=2.2.0 <3.0.0', hasData: true }
+404 silly addNameRange versions [ 'debug',
+404 silly addNameRange   [ '0.0.1',
+404 silly addNameRange     '0.1.0',
+404 silly addNameRange     '0.2.0',
+404 silly addNameRange     '0.3.0',
+404 silly addNameRange     '0.4.0',
+404 silly addNameRange     '0.4.1',
+404 silly addNameRange     '0.5.0',
+404 silly addNameRange     '0.6.0',
+404 silly addNameRange     '0.7.0',
+404 silly addNameRange     '0.7.1',
+404 silly addNameRange     '0.7.2',
+404 silly addNameRange     '0.7.3',
+404 silly addNameRange     '0.7.4',
+404 silly addNameRange     '0.8.0',
+404 silly addNameRange     '0.8.1',
+404 silly addNameRange     '1.0.0',
+404 silly addNameRange     '1.0.1',
+404 silly addNameRange     '1.0.2',
+404 silly addNameRange     '1.0.3',
+404 silly addNameRange     '1.0.4',
+404 silly addNameRange     '2.0.0',
+404 silly addNameRange     '2.1.0',
+404 silly addNameRange     '2.1.1',
+404 silly addNameRange     '2.1.2',
+404 silly addNameRange     '2.1.3',
+404 silly addNameRange     '2.2.0',
+404 silly addNameRange     '2.3.0',
+404 silly addNameRange     '2.3.1',
+404 silly addNameRange     '2.3.2',
+404 silly addNameRange     '2.3.3',
+404 silly addNameRange     '2.4.0',
+404 silly addNameRange     '2.4.1',
+404 silly addNameRange     '2.4.2',
+404 silly addNameRange     '2.4.3',
+404 silly addNameRange     '2.4.4',
+404 silly addNameRange     '2.4.5',
+404 silly addNameRange     '2.5.0',
+404 silly addNameRange     '2.5.1',
+404 silly addNameRange     '2.5.2',
+404 silly addNameRange     '2.6.0',
+404 silly addNameRange     '2.6.1',
+404 silly addNameRange     '2.6.2',
+404 silly addNameRange     '2.6.3',
+404 silly addNameRange     '2.6.4',
+404 silly addNameRange     '2.6.5',
+404 silly addNameRange     '2.6.6',
+404 silly addNameRange     '2.6.7',
+404 silly addNameRange     '2.6.8',
+404 silly addNameRange     '1.0.5',
+404 silly addNameRange     '3.0.0',
+404 silly addNameRange     '3.0.1',
+404 silly addNameRange     '2.6.9',
+404 silly addNameRange     '3.1.0' ] ]
+405 verbose addNamed [ 'debug', '2.6.9' ]
+406 verbose addNamed [ '2.6.9', '2.6.9' ]
+407 silly lockFile 3d3e1ad7-debug-2-6-9 debug@2.6.9
+408 verbose lock debug@2.6.9 /root/.npm/3d3e1ad7-debug-2-6-9.lock
+409 silly addNameRange number 2 { name: 'readable-stream',
+409 silly addNameRange   range: '>=2.0.5 <3.0.0',
+409 silly addNameRange   hasData: true }
+410 silly addNameRange versions [ 'readable-stream',
+410 silly addNameRange   [ '0.0.1',
+410 silly addNameRange     '0.0.2',
+410 silly addNameRange     '0.0.3',
+410 silly addNameRange     '0.0.4',
+410 silly addNameRange     '0.1.0',
+410 silly addNameRange     '0.2.0',
+410 silly addNameRange     '0.3.0',
+410 silly addNameRange     '0.3.1',
+410 silly addNameRange     '1.0.0',
+410 silly addNameRange     '1.0.1',
+410 silly addNameRange     '1.0.2',
+410 silly addNameRange     '1.0.15',
+410 silly addNameRange     '1.0.17',
+410 silly addNameRange     '1.1.7',
+410 silly addNameRange     '1.1.8',
+410 silly addNameRange     '1.1.9',
+410 silly addNameRange     '1.0.24',
+410 silly addNameRange     '1.0.25',
+410 silly addNameRange     '1.1.10',
+410 silly addNameRange     '1.0.25-1',
+410 silly addNameRange     '1.1.11',
+410 silly addNameRange     '1.0.26',
+410 silly addNameRange     '1.0.26-1',
+410 silly addNameRange     '1.1.11-1',
+410 silly addNameRange     '1.0.26-2',
+410 silly addNameRange     '1.1.12',
+410 silly addNameRange     '1.0.26-3',
+410 silly addNameRange     '1.0.26-4',
+410 silly addNameRange     '1.1.12-1',
+410 silly addNameRange     '1.0.27-1',
+410 silly addNameRange     '1.1.13-1',
+410 silly addNameRange     '1.0.31',
+410 silly addNameRange     '1.1.13',
+410 silly addNameRange     '1.0.32',
+410 silly addNameRange     '1.0.32-1',
+410 silly addNameRange     '1.0.33-1',
+410 silly addNameRange     '1.0.33-2',
+410 silly addNameRange     '1.0.33',
+410 silly addNameRange     '2.0.0',
+410 silly addNameRange     '2.0.1',
+410 silly addNameRange     '2.0.2',
+410 silly addNameRange     '2.0.3',
+410 silly addNameRange     '2.0.4',
+410 silly addNameRange     '2.0.5',
+410 silly addNameRange     '2.0.6',
+410 silly addNameRange     '1.0.34',
+410 silly addNameRange     '1.1.14',
+410 silly addNameRange     '2.1.0',
+410 silly addNameRange     '2.1.1',
+410 silly addNameRange     '2.1.2',
+410 silly addNameRange     '2.1.3',
+410 silly addNameRange     '2.1.4',
+410 silly addNameRange     '2.1.5',
+410 silly addNameRange     '2.2.0',
+410 silly addNameRange     '2.2.1',
+410 silly addNameRange     '2.2.2',
+410 silly addNameRange     '2.2.3',
+410 silly addNameRange     '2.2.4',
+410 silly addNameRange     '2.2.5',
+410 silly addNameRange     '2.2.6',
+410 silly addNameRange     '2.2.7',
+410 silly addNameRange     '2.2.8',
+410 silly addNameRange     '2.2.9',
+410 silly addNameRange     '2.2.10',
+410 silly addNameRange     '2.2.11',
+410 silly addNameRange     '2.3.0',
+410 silly addNameRange     '2.3.1',
+410 silly addNameRange     '2.3.2',
+410 silly addNameRange     '2.3.3' ] ]
+411 verbose addNamed [ 'readable-stream', '2.3.3' ]
+412 verbose addNamed [ '2.3.3', '2.3.3' ]
+413 silly lockFile 7c474cbf-readable-stream-2-3-3 readable-stream@2.3.3
+414 verbose lock readable-stream@2.3.3 /root/.npm/7c474cbf-readable-stream-2-3-3.lock
+415 silly addNameRange number 2 { name: 'nan', range: '>=2.2.0 <3.0.0', hasData: true }
+416 silly addNameRange versions [ 'nan',
+416 silly addNameRange   [ '0.3.0-wip',
+416 silly addNameRange     '0.3.0-wip2',
+416 silly addNameRange     '0.3.0',
+416 silly addNameRange     '0.3.1',
+416 silly addNameRange     '0.3.2',
+416 silly addNameRange     '0.4.0',
+416 silly addNameRange     '0.4.1',
+416 silly addNameRange     '0.4.2',
+416 silly addNameRange     '0.4.3',
+416 silly addNameRange     '0.4.4',
+416 silly addNameRange     '0.5.0',
+416 silly addNameRange     '0.5.1',
+416 silly addNameRange     '0.5.2',
+416 silly addNameRange     '0.6.0',
+416 silly addNameRange     '0.7.0',
+416 silly addNameRange     '0.7.1',
+416 silly addNameRange     '0.8.0',
+416 silly addNameRange     '1.0.0',
+416 silly addNameRange     '1.1.0',
+416 silly addNameRange     '1.1.1',
+416 silly addNameRange     '1.1.2',
+416 silly addNameRange     '1.2.0',
+416 silly addNameRange     '1.3.0',
+416 silly addNameRange     '1.4.0',
+416 silly addNameRange     '1.4.1',
+416 silly addNameRange     '1.5.0',
+416 silly addNameRange     '1.4.2',
+416 silly addNameRange     '1.4.3',
+416 silly addNameRange     '1.5.1',
+416 silly addNameRange     '1.5.2',
+416 silly addNameRange     '1.6.0',
+416 silly addNameRange     '1.5.3',
+416 silly addNameRange     '1.6.1',
+416 silly addNameRange     '1.6.2',
+416 silly addNameRange     '1.7.0',
+416 silly addNameRange     '1.8.0',
+416 silly addNameRange     '1.8.1',
+416 silly addNameRange     '1.8.2',
+416 silly addNameRange     '1.8.3',
+416 silly addNameRange     '1.8.4',
+416 silly addNameRange     '1.9.0',
+416 silly addNameRange     '2.0.0',
+416 silly addNameRange     '2.0.1',
+416 silly addNameRange     '2.0.2',
+416 silly addNameRange     '2.0.3',
+416 silly addNameRange     '2.0.4',
+416 silly addNameRange     '2.0.5',
+416 silly addNameRange     '2.0.6',
+416 silly addNameRange     '2.0.7',
+416 silly addNameRange     '2.0.8',
+416 silly addNameRange     '2.0.9',
+416 silly addNameRange     '2.1.0',
+416 silly addNameRange     '2.2.0',
+416 silly addNameRange     '2.2.1',
+416 silly addNameRange     '2.3.0',
+416 silly addNameRange     '2.3.1',
+416 silly addNameRange     '2.3.2',
+416 silly addNameRange     '2.3.3',
+416 silly addNameRange     '2.3.4',
+416 silly addNameRange     '2.3.5',
+416 silly addNameRange     '2.4.0',
+416 silly addNameRange     '2.5.0',
+416 silly addNameRange     '2.5.1',
+416 silly addNameRange     '2.6.0',
+416 silly addNameRange     '2.6.1',
+416 silly addNameRange     '2.6.2',
+416 silly addNameRange     '2.7.0',
+416 silly addNameRange     '2.8.0' ] ]
+417 verbose addNamed [ 'nan', '2.8.0' ]
+418 verbose addNamed [ '2.8.0', '2.8.0' ]
+419 silly lockFile 54110fda-nan-2-8-0 nan@2.8.0
+420 verbose lock nan@2.8.0 /root/.npm/54110fda-nan-2-8-0.lock
+421 silly lockFile 7f9ee26e--npmjs-org-debug-debug-2-6-9-tgz https://registry.npmjs.org/debug/-/debug-2.6.9.tgz
+422 verbose lock https://registry.npmjs.org/debug/-/debug-2.6.9.tgz /root/.npm/7f9ee26e--npmjs-org-debug-debug-2-6-9-tgz.lock
+423 silly lockFile d358c85e-stream-readable-stream-2-3-3-tgz https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.3.tgz
+424 verbose lock https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.3.tgz /root/.npm/d358c85e-stream-readable-stream-2-3-3-tgz.lock
+425 silly lockFile 278a10e3-stry-npmjs-org-nan-nan-2-8-0-tgz https://registry.npmjs.org/nan/-/nan-2.8.0.tgz
+426 verbose lock https://registry.npmjs.org/nan/-/nan-2.8.0.tgz /root/.npm/278a10e3-stry-npmjs-org-nan-nan-2-8-0-tgz.lock
+427 verbose addRemoteTarball [ 'https://registry.npmjs.org/debug/-/debug-2.6.9.tgz',
+427 verbose addRemoteTarball   '5d128515df134ff327e90a4c93f4e077a536341f' ]
+428 verbose addRemoteTarball [ 'https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.3.tgz',
+428 verbose addRemoteTarball   '368f2512d79f9d46fdfc71349ae7878bbc1eb95c' ]
+429 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.8.0.tgz',
+429 verbose addRemoteTarball   'ed715f3fe9de02b57a5e6252d90a96675e1f085a' ]
+430 info retry fetch attempt 1 at 23:43:19
+431 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/debug/-/debug-2.6.9.tgz
+432 info retry fetch attempt 1 at 23:43:19
+433 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/readable-stream/-/readable-stream-2.3.3.tgz
+434 info retry fetch attempt 1 at 23:43:19
+435 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/nan/-/nan-2.8.0.tgz
+436 http GET https://registry.npmjs.org/debug/-/debug-2.6.9.tgz
+437 http GET https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.3.tgz
+438 http GET https://registry.npmjs.org/nan/-/nan-2.8.0.tgz
+439 http 200 https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz
+440 silly lockFile 6317a512--org-bindings-bindings-1-3-0-tgz https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz
+441 silly lockFile 6317a512--org-bindings-bindings-1-3-0-tgz https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz
+442 silly lockFile e7c26552-bindings-1-3-0 bindings@1.3.0
+443 silly lockFile e7c26552-bindings-1-3-0 bindings@1.3.0
+444 silly lockFile b1a79860-bindings-1-2-1 bindings@^1.2.1
+445 silly lockFile b1a79860-bindings-1-2-1 bindings@^1.2.1
+446 http 200 https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.3.tgz
+447 http 200 https://registry.npmjs.org/nan/-/nan-2.8.0.tgz
+448 silly lockFile d358c85e-stream-readable-stream-2-3-3-tgz https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.3.tgz
+449 silly lockFile d358c85e-stream-readable-stream-2-3-3-tgz https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.3.tgz
+450 silly lockFile 7c474cbf-readable-stream-2-3-3 readable-stream@2.3.3
+451 silly lockFile 7c474cbf-readable-stream-2-3-3 readable-stream@2.3.3
+452 silly lockFile 88736a45-readable-stream-2-0-5 readable-stream@^2.0.5
+453 silly lockFile 88736a45-readable-stream-2-0-5 readable-stream@^2.0.5
+454 silly lockFile 278a10e3-stry-npmjs-org-nan-nan-2-8-0-tgz https://registry.npmjs.org/nan/-/nan-2.8.0.tgz
+455 silly lockFile 278a10e3-stry-npmjs-org-nan-nan-2-8-0-tgz https://registry.npmjs.org/nan/-/nan-2.8.0.tgz
+456 silly lockFile 54110fda-nan-2-8-0 nan@2.8.0
+457 silly lockFile 54110fda-nan-2-8-0 nan@2.8.0
+458 silly lockFile df706925-nan-2-2-0 nan@^2.2.0
+459 silly lockFile df706925-nan-2-2-0 nan@^2.2.0
+460 http 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz
+461 silly lockFile 7f9ee26e--npmjs-org-debug-debug-2-6-9-tgz https://registry.npmjs.org/debug/-/debug-2.6.9.tgz
+462 silly lockFile 7f9ee26e--npmjs-org-debug-debug-2-6-9-tgz https://registry.npmjs.org/debug/-/debug-2.6.9.tgz
+463 silly lockFile 3d3e1ad7-debug-2-6-9 debug@2.6.9
+464 silly lockFile 3d3e1ad7-debug-2-6-9 debug@2.6.9
+465 silly lockFile 862c00aa-debug-2-2-0 debug@^2.2.0
+466 silly lockFile 862c00aa-debug-2-2-0 debug@^2.2.0
+467 silly resolved [ { name: 'bindings',
+467 silly resolved     description: 'Helper module for loading your native module\'s .node file',
+467 silly resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+467 silly resolved     version: '1.3.0',
+467 silly resolved     author:
+467 silly resolved      { name: 'Nathan Rajlich',
+467 silly resolved        email: 'nathan@tootallnate.net',
+467 silly resolved        url: 'http://tootallnate.net' },
+467 silly resolved     repository:
+467 silly resolved      { type: 'git',
+467 silly resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+467 silly resolved     main: './bindings.js',
+467 silly resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+467 silly resolved     homepage: 'https://github.com/TooTallNate/node-bindings',
+467 silly resolved     license: 'MIT',
+467 silly resolved     gitHead: '7fd065ee85386ad3d074d2506e03abe8f9b1588b',
+467 silly resolved     _id: 'bindings@1.3.0',
+467 silly resolved     _npmVersion: '5.0.3',
+467 silly resolved     _nodeVersion: '8.1.3',
+467 silly resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+467 silly resolved     dist:
+467 silly resolved      { integrity: 'sha512-DpLh5EzMR2kzvX1KIlVC0VkC3iZtHKTgdtZ0a3pglBZdaQFjt5S9g9xd1lE+YvXyfd6mtCeRnrUfOLYiTMlNSw==',
+467 silly resolved        shasum: 'b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7',
+467 silly resolved        tarball: 'https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz' },
+467 silly resolved     maintainers: [ [Object] ],
+467 silly resolved     _npmOperationalInternal:
+467 silly resolved      { host: 's3://npm-registry-packages',
+467 silly resolved        tmp: 'tmp/bindings-1.3.0.tgz_1500923768710_0.3334669852629304' },
+467 silly resolved     directories: {},
+467 silly resolved     _shasum: 'b346f6ecf6a95f5a815c5839fc7cdb22502f1ed7',
+467 silly resolved     _from: 'bindings@^1.2.1',
+467 silly resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.3.0.tgz' },
+467 silly resolved   { name: 'readable-stream',
+467 silly resolved     version: '2.3.3',
+467 silly resolved     description: 'Streams3, a user-land copy of the stream library from Node.js',
+467 silly resolved     main: 'readable.js',
+467 silly resolved     dependencies:
+467 silly resolved      { 'core-util-is': '~1.0.0',
+467 silly resolved        inherits: '~2.0.3',
+467 silly resolved        isarray: '~1.0.0',
+467 silly resolved        'process-nextick-args': '~1.0.6',
+467 silly resolved        'safe-buffer': '~5.1.1',
+467 silly resolved        string_decoder: '~1.0.3',
+467 silly resolved        'util-deprecate': '~1.0.1' },
+467 silly resolved     devDependencies:
+467 silly resolved      { assert: '~1.4.0',
+467 silly resolved        'babel-polyfill': '^6.9.1',
+467 silly resolved        buffer: '^4.9.0',
+467 silly resolved        nyc: '^6.4.0',
+467 silly resolved        tap: '~0.7.1',
+467 silly resolved        tape: '~4.5.1',
+467 silly resolved        zuul: '~3.10.0' },
+467 silly resolved     scripts:
+467 silly resolved      { test: 'tap test/parallel/*.js test/ours/*.js && node test/verify-dependencies.js',
+467 silly resolved        browser: 'npm run write-zuul && zuul --browser-retries 2 -- test/browser.js',
+467 silly resolved        'write-zuul': 'printf "ui: tape\nbrowsers:\n  - name: $BROWSER_NAME\n    version: $BROWSER_VERSION\n">.zuul.yml',
+467 silly resolved        local: 'zuul --local 3000 --no-coverage -- test/browser.js',
+467 silly resolved        cover: 'nyc npm test',
+467 silly resolved        report: 'nyc report --reporter=lcov' },
+467 silly resolved     repository:
+467 silly resolved      { type: 'git',
+467 silly resolved        url: 'git://github.com/nodejs/readable-stream.git' },
+467 silly resolved     keywords: [ 'readable', 'stream', 'pipe' ],
+467 silly resolved     browser:
+467 silly resolved      { util: false,
+467 silly resolved        './readable.js': './readable-browser.js',
+467 silly resolved        './writable.js': './writable-browser.js',
+467 silly resolved        './duplex.js': './duplex-browser.js',
+467 silly resolved        './lib/internal/streams/stream.js': './lib/internal/streams/stream-browser.js' },
+467 silly resolved     nyc: { include: [Object] },
+467 silly resolved     license: 'MIT',
+467 silly resolved     gitHead: 'cd59995050105b946884ee20e3bcadc252feda8c',
+467 silly resolved     bugs: { url: 'https://github.com/nodejs/readable-stream/issues' },
+467 silly resolved     homepage: 'https://github.com/nodejs/readable-stream#readme',
+467 silly resolved     _id: 'readable-stream@2.3.3',
+467 silly resolved     _npmVersion: '5.0.3',
+467 silly resolved     _nodeVersion: '8.1.3',
+467 silly resolved     _npmUser: { name: 'matteo.collina', email: 'hello@matteocollina.com' },
+467 silly resolved     dist:
+467 silly resolved      { integrity: 'sha512-m+qzzcn7KUxEmd1gMbchF+Y2eIUbieUaxkWtptyHywrX0rE8QEYqPC07Vuy4Wm32/xE16NcdBctb8S0Xe/5IeQ==',
+467 silly resolved        shasum: '368f2512d79f9d46fdfc71349ae7878bbc1eb95c',
+467 silly resolved        tarball: 'https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.3.tgz' },
+467 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+467 silly resolved     _npmOperationalInternal:
+467 silly resolved      { host: 's3://npm-registry-packages',
+467 silly resolved        tmp: 'tmp/readable-stream-2.3.3.tgz_1498745872585_0.8663316275924444' },
+467 silly resolved     directories: {},
+467 silly resolved     _shasum: '368f2512d79f9d46fdfc71349ae7878bbc1eb95c',
+467 silly resolved     _from: 'readable-stream@^2.0.5',
+467 silly resolved     _resolved: 'https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.3.tgz' },
+467 silly resolved   { name: 'nan',
+467 silly resolved     version: '2.8.0',
+467 silly resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 9 compatibility',
+467 silly resolved     main: 'include_dirs.js',
+467 silly resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+467 silly resolved     scripts:
+467 silly resolved      { test: 'tap --gc --stderr test/js/*-test.js',
+467 silly resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2015 --directory test',
+467 silly resolved        docs: 'doc/.build.sh' },
+467 silly resolved     contributors:
+467 silly resolved      [ [Object],
+467 silly resolved        [Object],
+467 silly resolved        [Object],
+467 silly resolved        [Object],
+467 silly resolved        [Object],
+467 silly resolved        [Object],
+467 silly resolved        [Object],
+467 silly resolved        [Object] ],
+467 silly resolved     devDependencies:
+467 silly resolved      { bindings: '~1.2.1',
+467 silly resolved        commander: '^2.8.1',
+467 silly resolved        glob: '^5.0.14',
+467 silly resolved        request: '=2.81.0',
+467 silly resolved        'node-gyp': '~3.6.2',
+467 silly resolved        'readable-stream': '^2.1.4',
+467 silly resolved        tap: '~0.7.1',
+467 silly resolved        xtend: '~4.0.0' },
+467 silly resolved     license: 'MIT',
+467 silly resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+467 silly resolved     homepage: 'https://github.com/nodejs/nan#readme',
+467 silly resolved     _id: 'nan@2.8.0',
+467 silly resolved     _shasum: 'ed715f3fe9de02b57a5e6252d90a96675e1f085a',
+467 silly resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.8.0.tgz',
+467 silly resolved     _from: 'nan@^2.2.0',
+467 silly resolved     _npmVersion: '3.10.10',
+467 silly resolved     _nodeVersion: '6.12.0',
+467 silly resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+467 silly resolved     dist:
+467 silly resolved      { shasum: 'ed715f3fe9de02b57a5e6252d90a96675e1f085a',
+467 silly resolved        tarball: 'https://registry.npmjs.org/nan/-/nan-2.8.0.tgz' },
+467 silly resolved     maintainers: [ [Object], [Object] ],
+467 silly resolved     _npmOperationalInternal:
+467 silly resolved      { host: 's3://npm-registry-packages',
+467 silly resolved        tmp: 'tmp/nan-2.8.0.tgz_1510745663002_0.45465062628500164' },
+467 silly resolved     directories: {} },
+467 silly resolved   { name: 'debug',
+467 silly resolved     version: '2.6.9',
+467 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+467 silly resolved     description: 'small debugging utility',
+467 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+467 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+467 silly resolved     contributors: [ [Object], [Object] ],
+467 silly resolved     license: 'MIT',
+467 silly resolved     dependencies: { ms: '2.0.0' },
+467 silly resolved     devDependencies:
+467 silly resolved      { browserify: '9.0.3',
+467 silly resolved        chai: '^3.5.0',
+467 silly resolved        concurrently: '^3.1.0',
+467 silly resolved        coveralls: '^2.11.15',
+467 silly resolved        eslint: '^3.12.1',
+467 silly resolved        istanbul: '^0.4.5',
+467 silly resolved        karma: '^1.3.0',
+467 silly resolved        'karma-chai': '^0.1.0',
+467 silly resolved        'karma-mocha': '^1.3.0',
+467 silly resolved        'karma-phantomjs-launcher': '^1.0.2',
+467 silly resolved        'karma-sinon': '^1.0.5',
+467 silly resolved        mocha: '^3.2.0',
+467 silly resolved        'mocha-lcov-reporter': '^1.2.0',
+467 silly resolved        rimraf: '^2.5.4',
+467 silly resolved        sinon: '^1.17.6',
+467 silly resolved        'sinon-chai': '^2.8.0' },
+467 silly resolved     main: './src/index.js',
+467 silly resolved     browser: './src/browser.js',
+467 silly resolved     component: { scripts: [Object] },
+467 silly resolved     gitHead: '13abeae468fea297d0dccc50bc55590809241083',
+467 silly resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+467 silly resolved     homepage: 'https://github.com/visionmedia/debug#readme',
+467 silly resolved     _id: 'debug@2.6.9',
+467 silly resolved     _npmVersion: '5.3.0',
+467 silly resolved     _nodeVersion: '8.4.0',
+467 silly resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+467 silly resolved     dist:
+467 silly resolved      { integrity: 'sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==',
+467 silly resolved        shasum: '5d128515df134ff327e90a4c93f4e077a536341f',
+467 silly resolved        tarball: 'https://registry.npmjs.org/debug/-/debug-2.6.9.tgz' },
+467 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+467 silly resolved     _npmOperationalInternal:
+467 silly resolved      { host: 's3://npm-registry-packages',
+467 silly resolved        tmp: 'tmp/debug-2.6.9.tgz_1506087154503_0.5196126794908196' },
+467 silly resolved     directories: {},
+467 silly resolved     _shasum: '5d128515df134ff327e90a4c93f4e077a536341f',
+467 silly resolved     _from: 'debug@^2.2.0',
+467 silly resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-2.6.9.tgz' } ]
+468 info install bindings@1.3.0 into /home/pi/orelhao/node_modules/speaker
+469 info install readable-stream@2.3.3 into /home/pi/orelhao/node_modules/speaker
+470 info install nan@2.8.0 into /home/pi/orelhao/node_modules/speaker
+471 info install debug@2.6.9 into /home/pi/orelhao/node_modules/speaker
+472 info installOne bindings@1.3.0
+473 info installOne readable-stream@2.3.3
+474 info installOne nan@2.8.0
+475 info installOne debug@2.6.9
+476 verbose node_modules/speaker/node_modules/bindings unbuild
+477 verbose node_modules/speaker/node_modules/readable-stream unbuild
+478 verbose node_modules/speaker/node_modules/nan unbuild
+479 verbose node_modules/speaker/node_modules/debug unbuild
+480 verbose tar unpack /root/.npm/bindings/1.3.0/package.tgz
+481 silly lockFile 6a25ed84-es-speaker-node-modules-bindings tar:///home/pi/orelhao/node_modules/speaker/node_modules/bindings
+482 verbose lock tar:///home/pi/orelhao/node_modules/speaker/node_modules/bindings /root/.npm/6a25ed84-es-speaker-node-modules-bindings.lock
+483 silly lockFile 349e262d-t-npm-bindings-1-3-0-package-tgz tar:///root/.npm/bindings/1.3.0/package.tgz
+484 verbose lock tar:///root/.npm/bindings/1.3.0/package.tgz /root/.npm/349e262d-t-npm-bindings-1-3-0-package-tgz.lock
+485 verbose tar unpack /root/.npm/readable-stream/2.3.3/package.tgz
+486 silly lockFile 5cf3937b-ker-node-modules-readable-stream tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream
+487 verbose lock tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream /root/.npm/5cf3937b-ker-node-modules-readable-stream.lock
+488 silly lockFile 63c5879a-eadable-stream-2-3-3-package-tgz tar:///root/.npm/readable-stream/2.3.3/package.tgz
+489 verbose lock tar:///root/.npm/readable-stream/2.3.3/package.tgz /root/.npm/63c5879a-eadable-stream-2-3-3-package-tgz.lock
+490 verbose tar unpack /root/.npm/nan/2.8.0/package.tgz
+491 silly lockFile 846d7315-modules-speaker-node-modules-nan tar:///home/pi/orelhao/node_modules/speaker/node_modules/nan
+492 verbose lock tar:///home/pi/orelhao/node_modules/speaker/node_modules/nan /root/.npm/846d7315-modules-speaker-node-modules-nan.lock
+493 silly lockFile 77421fb8-r-root-npm-nan-2-8-0-package-tgz tar:///root/.npm/nan/2.8.0/package.tgz
+494 verbose lock tar:///root/.npm/nan/2.8.0/package.tgz /root/.npm/77421fb8-r-root-npm-nan-2-8-0-package-tgz.lock
+495 verbose tar unpack /root/.npm/debug/2.6.9/package.tgz
+496 silly lockFile e4725a6e-dules-speaker-node-modules-debug tar:///home/pi/orelhao/node_modules/speaker/node_modules/debug
+497 verbose lock tar:///home/pi/orelhao/node_modules/speaker/node_modules/debug /root/.npm/e4725a6e-dules-speaker-node-modules-debug.lock
+498 silly lockFile 5c3b62fb-root-npm-debug-2-6-9-package-tgz tar:///root/.npm/debug/2.6.9/package.tgz
+499 verbose lock tar:///root/.npm/debug/2.6.9/package.tgz /root/.npm/5c3b62fb-root-npm-debug-2-6-9-package-tgz.lock
+500 silly gunzTarPerm modes [ '755', '644' ]
+501 silly gunzTarPerm modes [ '755', '644' ]
+502 silly gunzTarPerm modes [ '755', '644' ]
+503 silly gunzTarPerm modes [ '755', '644' ]
+504 silly gunzTarPerm extractEntry package.json
+505 silly gunzTarPerm extractEntry package.json
+506 silly gunzTarPerm extractEntry package.json
+507 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+508 silly gunzTarPerm extractEntry package.json
+509 silly gunzTarPerm extractEntry README.md
+510 silly gunzTarPerm extractEntry bindings.js
+511 silly gunzTarPerm extractEntry .npmignore
+512 silly gunzTarPerm extractEntry README.md
+513 silly gunzTarPerm extractEntry README.md
+514 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+515 silly gunzTarPerm extractEntry include_dirs.js
+516 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+517 silly gunzTarPerm extractEntry .npmignore
+518 silly gunzTarPerm extractEntry README.md
+519 silly gunzTarPerm extractEntry LICENSE
+520 silly gunzTarPerm extractEntry readable-browser.js
+521 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+522 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+523 silly gunzTarPerm extractEntry LICENSE.md
+524 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+525 silly gunzTarPerm extractEntry doc/new.md
+526 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+527 silly gunzTarPerm extractEntry LICENSE
+528 silly gunzTarPerm extractEntry doc/asyncworker.md
+529 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+530 silly gunzTarPerm extractEntry writable-browser.js
+531 silly gunzTarPerm extractEntry readable.js
+532 silly gunzTarPerm extractEntry karma.conf.js
+533 silly gunzTarPerm extractEntry node.js
+534 silly gunzTarPerm extractEntry .eslintrc
+535 silly gunzTarPerm extractEntry Makefile
+536 silly gunzTarPerm extractEntry doc/callback.md
+537 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+538 silly gunzTarPerm extractEntry doc/converters.md
+539 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+540 silly gunzTarPerm extractEntry passthrough.js
+541 silly gunzTarPerm extractEntry transform.js
+542 silly gunzTarPerm extractEntry .coveralls.yml
+543 silly gunzTarPerm extractEntry component.json
+544 silly gunzTarPerm extractEntry doc/errors.md
+545 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+546 silly gunzTarPerm extractEntry doc/json.md
+547 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 420 ]
+548 silly gunzTarPerm extractEntry duplex-browser.js
+549 silly gunzTarPerm extractEntry writable.js
+550 silly gunzTarPerm extractEntry duplex.js
+551 silly gunzTarPerm extractEntry GOVERNANCE.md
+552 silly gunzTarPerm extractEntry .travis.yml
+553 silly gunzTarPerm extractEntry doc/wg-meetings/2015-01-30.md
+554 silly gunzTarPerm extractEntry lib/_stream_duplex.js
+555 silly gunzTarPerm extractEntry lib/_stream_passthrough.js
+556 silly gunzTarPerm extractEntry lib/_stream_readable.js
+557 silly gunzTarPerm extractEntry lib/_stream_transform.js
+558 silly gunzTarPerm extractEntry lib/_stream_writable.js
+559 silly gunzTarPerm extractEntry lib/internal/streams/BufferList.js
+560 silly gunzTarPerm extractEntry lib/internal/streams/destroy.js
+561 silly gunzTarPerm extractEntry lib/internal/streams/stream-browser.js
+562 silly gunzTarPerm extractEntry lib/internal/streams/stream.js
+563 silly gunzTarPerm extractEntry CONTRIBUTING.md
+564 silly lockFile 6a25ed84-es-speaker-node-modules-bindings tar:///home/pi/orelhao/node_modules/speaker/node_modules/bindings
+565 silly lockFile 6a25ed84-es-speaker-node-modules-bindings tar:///home/pi/orelhao/node_modules/speaker/node_modules/bindings
+566 silly gunzTarPerm extractEntry .travis.yml
+567 silly gunzTarPerm extractEntry CHANGELOG.md
+568 silly lockFile 349e262d-t-npm-bindings-1-3-0-package-tgz tar:///root/.npm/bindings/1.3.0/package.tgz
+569 silly lockFile 349e262d-t-npm-bindings-1-3-0-package-tgz tar:///root/.npm/bindings/1.3.0/package.tgz
+570 silly gunzTarPerm extractEntry doc/maybe_types.md
+571 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+572 silly gunzTarPerm extractEntry doc/methods.md
+573 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+574 info preinstall bindings@1.3.0
+575 verbose readDependencies using package.json deps
+576 verbose readDependencies using package.json deps
+577 silly resolved []
+578 verbose about to build /home/pi/orelhao/node_modules/speaker/node_modules/bindings
+579 info build /home/pi/orelhao/node_modules/speaker/node_modules/bindings
+580 verbose linkStuff [ false,
+580 verbose linkStuff   false,
+580 verbose linkStuff   false,
+580 verbose linkStuff   '/home/pi/orelhao/node_modules/speaker/node_modules' ]
+581 info linkStuff bindings@1.3.0
+582 verbose linkBins bindings@1.3.0
+583 verbose linkMans bindings@1.3.0
+584 verbose rebuildBundles bindings@1.3.0
+585 silly gunzTarPerm extractEntry doc/buffers.md
+586 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+587 silly gunzTarPerm extractEntry doc/node_misc.md
+588 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+589 silly gunzTarPerm extractEntry src/browser.js
+590 silly gunzTarPerm extractEntry src/debug.js
+591 info install bindings@1.3.0
+592 info postinstall bindings@1.3.0
+593 silly gunzTarPerm extractEntry src/index.js
+594 silly gunzTarPerm extractEntry src/inspector-log.js
+595 silly gunzTarPerm extractEntry doc/object_wrappers.md
+596 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+597 silly gunzTarPerm extractEntry doc/persistent.md
+598 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+599 silly gunzTarPerm extractEntry src/node.js
+600 silly gunzTarPerm extractEntry doc/scopes.md
+601 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+602 silly gunzTarPerm extractEntry doc/script.md
+603 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+604 silly gunzTarPerm extractEntry doc/string_bytes.md
+605 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+606 silly gunzTarPerm extractEntry doc/v8_internals.md
+607 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+608 silly gunzTarPerm extractEntry doc/v8_misc.md
+609 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+610 silly gunzTarPerm extractEntry nan.h
+611 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+612 silly gunzTarPerm extractEntry nan_callbacks.h
+613 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+614 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+615 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+616 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+617 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+618 silly gunzTarPerm extractEntry nan_converters.h
+619 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+620 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+621 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+622 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+623 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+624 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+625 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+626 silly gunzTarPerm extractEntry nan_json.h
+627 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 420 ]
+628 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+629 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+630 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+631 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+632 silly gunzTarPerm extractEntry nan_new.h
+633 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+634 silly gunzTarPerm extractEntry nan_object_wrap.h
+635 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+636 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+637 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+638 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+639 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+640 silly gunzTarPerm extractEntry nan_private.h
+641 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 420 ]
+642 silly gunzTarPerm extractEntry nan_string_bytes.h
+643 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+644 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+645 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+646 silly gunzTarPerm extractEntry nan_weak.h
+647 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+648 silly lockFile e4725a6e-dules-speaker-node-modules-debug tar:///home/pi/orelhao/node_modules/speaker/node_modules/debug
+649 silly lockFile e4725a6e-dules-speaker-node-modules-debug tar:///home/pi/orelhao/node_modules/speaker/node_modules/debug
+650 silly lockFile 5c3b62fb-root-npm-debug-2-6-9-package-tgz tar:///root/.npm/debug/2.6.9/package.tgz
+651 silly lockFile 5c3b62fb-root-npm-debug-2-6-9-package-tgz tar:///root/.npm/debug/2.6.9/package.tgz
+652 silly gunzTarPerm extractEntry CHANGELOG.md
+653 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+654 silly gunzTarPerm extractEntry tools/package.json
+655 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+656 info preinstall debug@2.6.9
+657 verbose readDependencies using package.json deps
+658 verbose readDependencies using package.json deps
+659 verbose cache add [ 'ms@2.0.0', null ]
+660 verbose cache add name=undefined spec="ms@2.0.0" args=["ms@2.0.0",null]
+661 verbose parsed url Url {
+661 verbose parsed url   protocol: null,
+661 verbose parsed url   slashes: null,
+661 verbose parsed url   auth: null,
+661 verbose parsed url   host: null,
+661 verbose parsed url   port: null,
+661 verbose parsed url   hostname: null,
+661 verbose parsed url   hash: null,
+661 verbose parsed url   search: null,
+661 verbose parsed url   query: null,
+661 verbose parsed url   pathname: 'ms@2.0.0',
+661 verbose parsed url   path: 'ms@2.0.0',
+661 verbose parsed url   href: 'ms@2.0.0' }
+662 verbose cache add name="ms" spec="2.0.0" args=["ms","2.0.0"]
+663 verbose parsed url Url {
+663 verbose parsed url   protocol: null,
+663 verbose parsed url   slashes: null,
+663 verbose parsed url   auth: null,
+663 verbose parsed url   host: null,
+663 verbose parsed url   port: null,
+663 verbose parsed url   hostname: null,
+663 verbose parsed url   hash: null,
+663 verbose parsed url   search: null,
+663 verbose parsed url   query: null,
+663 verbose parsed url   pathname: '2.0.0',
+663 verbose parsed url   path: '2.0.0',
+663 verbose parsed url   href: '2.0.0' }
+664 verbose addNamed [ 'ms', '2.0.0' ]
+665 verbose addNamed [ '2.0.0', '2.0.0' ]
+666 silly lockFile 75aee418-ms-2-0-0 ms@2.0.0
+667 verbose lock ms@2.0.0 /root/.npm/75aee418-ms-2-0-0.lock
+668 silly gunzTarPerm extractEntry tools/README.md
+669 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+670 silly gunzTarPerm extractEntry tools/1to2.js
+671 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+672 verbose request where is /ms
+673 verbose request registry https://registry.npmjs.org/
+674 verbose url raw /ms
+675 verbose url resolving [ 'https://registry.npmjs.org/', './ms' ]
+676 verbose url resolved https://registry.npmjs.org/ms
+677 verbose request where is https://registry.npmjs.org/ms
+678 info trying registry request attempt 1 at 23:43:24
+679 http GET https://registry.npmjs.org/ms
+680 silly lockFile 5cf3937b-ker-node-modules-readable-stream tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream
+681 silly lockFile 5cf3937b-ker-node-modules-readable-stream tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream
+682 silly lockFile 63c5879a-eadable-stream-2-3-3-package-tgz tar:///root/.npm/readable-stream/2.3.3/package.tgz
+683 silly lockFile 63c5879a-eadable-stream-2-3-3-package-tgz tar:///root/.npm/readable-stream/2.3.3/package.tgz
+684 info preinstall readable-stream@2.3.3
+685 verbose readDependencies using package.json deps
+686 verbose readDependencies using package.json deps
+687 http 200 https://registry.npmjs.org/ms
+688 silly registry.get cb [ 200,
+688 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+688 silly registry.get     server: 'UploadServer',
+688 silly registry.get     'cache-control': 'max-age=300',
+688 silly registry.get     'last-modified': 'Mon, 4 Dec 2017 9:08:24 GMT',
+688 silly registry.get     etag: '"5a251088-488d"',
+688 silly registry.get     'content-length': '18573',
+688 silly registry.get     'accept-ranges': 'bytes',
+688 silly registry.get     date: 'Wed, 06 Dec 2017 23:43:25 GMT',
+688 silly registry.get     via: '1.1 varnish',
+688 silly registry.get     age: '1238',
+688 silly registry.get     connection: 'close',
+688 silly registry.get     'x-served-by': 'cache-gru17120-GRU',
+688 silly registry.get     'x-cache': 'HIT',
+688 silly registry.get     'x-cache-hits': '14',
+688 silly registry.get     'x-timer': 'S1512603805.398595,VS0,VE0',
+688 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+689 verbose cache add [ 'inherits@~2.0.3', null ]
+690 verbose cache add name=undefined spec="inherits@~2.0.3" args=["inherits@~2.0.3",null]
+691 verbose parsed url Url {
+691 verbose parsed url   protocol: null,
+691 verbose parsed url   slashes: null,
+691 verbose parsed url   auth: null,
+691 verbose parsed url   host: null,
+691 verbose parsed url   port: null,
+691 verbose parsed url   hostname: null,
+691 verbose parsed url   hash: null,
+691 verbose parsed url   search: null,
+691 verbose parsed url   query: null,
+691 verbose parsed url   pathname: 'inherits@~2.0.3',
+691 verbose parsed url   path: 'inherits@~2.0.3',
+691 verbose parsed url   href: 'inherits@~2.0.3' }
+692 verbose cache add [ 'isarray@~1.0.0', null ]
+693 verbose cache add name=undefined spec="isarray@~1.0.0" args=["isarray@~1.0.0",null]
+694 verbose parsed url Url {
+694 verbose parsed url   protocol: null,
+694 verbose parsed url   slashes: null,
+694 verbose parsed url   auth: null,
+694 verbose parsed url   host: null,
+694 verbose parsed url   port: null,
+694 verbose parsed url   hostname: null,
+694 verbose parsed url   hash: null,
+694 verbose parsed url   search: null,
+694 verbose parsed url   query: null,
+694 verbose parsed url   pathname: 'isarray@~1.0.0',
+694 verbose parsed url   path: 'isarray@~1.0.0',
+694 verbose parsed url   href: 'isarray@~1.0.0' }
+695 verbose cache add [ 'process-nextick-args@~1.0.6', null ]
+696 verbose cache add name=undefined spec="process-nextick-args@~1.0.6" args=["process-nextick-args@~1.0.6",null]
+697 verbose parsed url Url {
+697 verbose parsed url   protocol: null,
+697 verbose parsed url   slashes: null,
+697 verbose parsed url   auth: null,
+697 verbose parsed url   host: null,
+697 verbose parsed url   port: null,
+697 verbose parsed url   hostname: null,
+697 verbose parsed url   hash: null,
+697 verbose parsed url   search: null,
+697 verbose parsed url   query: null,
+697 verbose parsed url   pathname: 'process-nextick-args@~1.0.6',
+697 verbose parsed url   path: 'process-nextick-args@~1.0.6',
+697 verbose parsed url   href: 'process-nextick-args@~1.0.6' }
+698 verbose cache add [ 'safe-buffer@~5.1.1', null ]
+699 verbose cache add name=undefined spec="safe-buffer@~5.1.1" args=["safe-buffer@~5.1.1",null]
+700 verbose parsed url Url {
+700 verbose parsed url   protocol: null,
+700 verbose parsed url   slashes: null,
+700 verbose parsed url   auth: null,
+700 verbose parsed url   host: null,
+700 verbose parsed url   port: null,
+700 verbose parsed url   hostname: null,
+700 verbose parsed url   hash: null,
+700 verbose parsed url   search: null,
+700 verbose parsed url   query: null,
+700 verbose parsed url   pathname: 'safe-buffer@~5.1.1',
+700 verbose parsed url   path: 'safe-buffer@~5.1.1',
+700 verbose parsed url   href: 'safe-buffer@~5.1.1' }
+701 verbose cache add [ 'string_decoder@~1.0.3', null ]
+702 verbose cache add name=undefined spec="string_decoder@~1.0.3" args=["string_decoder@~1.0.3",null]
+703 verbose parsed url Url {
+703 verbose parsed url   protocol: null,
+703 verbose parsed url   slashes: null,
+703 verbose parsed url   auth: null,
+703 verbose parsed url   host: null,
+703 verbose parsed url   port: null,
+703 verbose parsed url   hostname: null,
+703 verbose parsed url   hash: null,
+703 verbose parsed url   search: null,
+703 verbose parsed url   query: null,
+703 verbose parsed url   pathname: 'string_decoder@~1.0.3',
+703 verbose parsed url   path: 'string_decoder@~1.0.3',
+703 verbose parsed url   href: 'string_decoder@~1.0.3' }
+704 verbose cache add [ 'util-deprecate@~1.0.1', null ]
+705 verbose cache add name=undefined spec="util-deprecate@~1.0.1" args=["util-deprecate@~1.0.1",null]
+706 verbose parsed url Url {
+706 verbose parsed url   protocol: null,
+706 verbose parsed url   slashes: null,
+706 verbose parsed url   auth: null,
+706 verbose parsed url   host: null,
+706 verbose parsed url   port: null,
+706 verbose parsed url   hostname: null,
+706 verbose parsed url   hash: null,
+706 verbose parsed url   search: null,
+706 verbose parsed url   query: null,
+706 verbose parsed url   pathname: 'util-deprecate@~1.0.1',
+706 verbose parsed url   path: 'util-deprecate@~1.0.1',
+706 verbose parsed url   href: 'util-deprecate@~1.0.1' }
+707 verbose cache add [ 'core-util-is@~1.0.0', null ]
+708 verbose cache add name=undefined spec="core-util-is@~1.0.0" args=["core-util-is@~1.0.0",null]
+709 verbose parsed url Url {
+709 verbose parsed url   protocol: null,
+709 verbose parsed url   slashes: null,
+709 verbose parsed url   auth: null,
+709 verbose parsed url   host: null,
+709 verbose parsed url   port: null,
+709 verbose parsed url   hostname: null,
+709 verbose parsed url   hash: null,
+709 verbose parsed url   search: null,
+709 verbose parsed url   query: null,
+709 verbose parsed url   pathname: 'core-util-is@~1.0.0',
+709 verbose parsed url   path: 'core-util-is@~1.0.0',
+709 verbose parsed url   href: 'core-util-is@~1.0.0' }
+710 verbose cache add name="inherits" spec="~2.0.3" args=["inherits","~2.0.3"]
+711 verbose parsed url Url {
+711 verbose parsed url   protocol: null,
+711 verbose parsed url   slashes: null,
+711 verbose parsed url   auth: null,
+711 verbose parsed url   host: null,
+711 verbose parsed url   port: null,
+711 verbose parsed url   hostname: null,
+711 verbose parsed url   hash: null,
+711 verbose parsed url   search: null,
+711 verbose parsed url   query: null,
+711 verbose parsed url   pathname: '~2.0.3',
+711 verbose parsed url   path: '~2.0.3',
+711 verbose parsed url   href: '~2.0.3' }
+712 verbose addNamed [ 'inherits', '~2.0.3' ]
+713 verbose addNamed [ null, '>=2.0.3 <2.1.0' ]
+714 silly lockFile 38c40840-inherits-2-0-3 inherits@~2.0.3
+715 verbose lock inherits@~2.0.3 /root/.npm/38c40840-inherits-2-0-3.lock
+716 verbose cache add name="isarray" spec="~1.0.0" args=["isarray","~1.0.0"]
+717 verbose parsed url Url {
+717 verbose parsed url   protocol: null,
+717 verbose parsed url   slashes: null,
+717 verbose parsed url   auth: null,
+717 verbose parsed url   host: null,
+717 verbose parsed url   port: null,
+717 verbose parsed url   hostname: null,
+717 verbose parsed url   hash: null,
+717 verbose parsed url   search: null,
+717 verbose parsed url   query: null,
+717 verbose parsed url   pathname: '~1.0.0',
+717 verbose parsed url   path: '~1.0.0',
+717 verbose parsed url   href: '~1.0.0' }
+718 verbose addNamed [ 'isarray', '~1.0.0' ]
+719 verbose addNamed [ null, '>=1.0.0 <1.1.0' ]
+720 silly lockFile c9f174a0-isarray-1-0-0 isarray@~1.0.0
+721 verbose lock isarray@~1.0.0 /root/.npm/c9f174a0-isarray-1-0-0.lock
+722 verbose cache add name="process-nextick-args" spec="~1.0.6" args=["process-nextick-args","~1.0.6"]
+723 verbose parsed url Url {
+723 verbose parsed url   protocol: null,
+723 verbose parsed url   slashes: null,
+723 verbose parsed url   auth: null,
+723 verbose parsed url   host: null,
+723 verbose parsed url   port: null,
+723 verbose parsed url   hostname: null,
+723 verbose parsed url   hash: null,
+723 verbose parsed url   search: null,
+723 verbose parsed url   query: null,
+723 verbose parsed url   pathname: '~1.0.6',
+723 verbose parsed url   path: '~1.0.6',
+723 verbose parsed url   href: '~1.0.6' }
+724 verbose addNamed [ 'process-nextick-args', '~1.0.6' ]
+725 verbose addNamed [ null, '>=1.0.6 <1.1.0' ]
+726 silly lockFile 34df6d61-process-nextick-args-1-0-6 process-nextick-args@~1.0.6
+727 verbose lock process-nextick-args@~1.0.6 /root/.npm/34df6d61-process-nextick-args-1-0-6.lock
+728 verbose cache add name="safe-buffer" spec="~5.1.1" args=["safe-buffer","~5.1.1"]
+729 verbose parsed url Url {
+729 verbose parsed url   protocol: null,
+729 verbose parsed url   slashes: null,
+729 verbose parsed url   auth: null,
+729 verbose parsed url   host: null,
+729 verbose parsed url   port: null,
+729 verbose parsed url   hostname: null,
+729 verbose parsed url   hash: null,
+729 verbose parsed url   search: null,
+729 verbose parsed url   query: null,
+729 verbose parsed url   pathname: '~5.1.1',
+729 verbose parsed url   path: '~5.1.1',
+729 verbose parsed url   href: '~5.1.1' }
+730 verbose addNamed [ 'safe-buffer', '~5.1.1' ]
+731 verbose addNamed [ null, '>=5.1.1 <5.2.0' ]
+732 silly lockFile f473630f-safe-buffer-5-1-1 safe-buffer@~5.1.1
+733 verbose lock safe-buffer@~5.1.1 /root/.npm/f473630f-safe-buffer-5-1-1.lock
+734 verbose cache add name="string_decoder" spec="~1.0.3" args=["string_decoder","~1.0.3"]
+735 verbose parsed url Url {
+735 verbose parsed url   protocol: null,
+735 verbose parsed url   slashes: null,
+735 verbose parsed url   auth: null,
+735 verbose parsed url   host: null,
+735 verbose parsed url   port: null,
+735 verbose parsed url   hostname: null,
+735 verbose parsed url   hash: null,
+735 verbose parsed url   search: null,
+735 verbose parsed url   query: null,
+735 verbose parsed url   pathname: '~1.0.3',
+735 verbose parsed url   path: '~1.0.3',
+735 verbose parsed url   href: '~1.0.3' }
+736 verbose addNamed [ 'string_decoder', '~1.0.3' ]
+737 verbose addNamed [ null, '>=1.0.3 <1.1.0' ]
+738 silly lockFile b6a81870-string-decoder-1-0-3 string_decoder@~1.0.3
+739 verbose lock string_decoder@~1.0.3 /root/.npm/b6a81870-string-decoder-1-0-3.lock
+740 verbose cache add name="util-deprecate" spec="~1.0.1" args=["util-deprecate","~1.0.1"]
+741 verbose parsed url Url {
+741 verbose parsed url   protocol: null,
+741 verbose parsed url   slashes: null,
+741 verbose parsed url   auth: null,
+741 verbose parsed url   host: null,
+741 verbose parsed url   port: null,
+741 verbose parsed url   hostname: null,
+741 verbose parsed url   hash: null,
+741 verbose parsed url   search: null,
+741 verbose parsed url   query: null,
+741 verbose parsed url   pathname: '~1.0.1',
+741 verbose parsed url   path: '~1.0.1',
+741 verbose parsed url   href: '~1.0.1' }
+742 verbose addNamed [ 'util-deprecate', '~1.0.1' ]
+743 verbose addNamed [ null, '>=1.0.1 <1.1.0' ]
+744 silly lockFile d0045abb-util-deprecate-1-0-1 util-deprecate@~1.0.1
+745 verbose lock util-deprecate@~1.0.1 /root/.npm/d0045abb-util-deprecate-1-0-1.lock
+746 verbose cache add name="core-util-is" spec="~1.0.0" args=["core-util-is","~1.0.0"]
+747 verbose parsed url Url {
+747 verbose parsed url   protocol: null,
+747 verbose parsed url   slashes: null,
+747 verbose parsed url   auth: null,
+747 verbose parsed url   host: null,
+747 verbose parsed url   port: null,
+747 verbose parsed url   hostname: null,
+747 verbose parsed url   hash: null,
+747 verbose parsed url   search: null,
+747 verbose parsed url   query: null,
+747 verbose parsed url   pathname: '~1.0.0',
+747 verbose parsed url   path: '~1.0.0',
+747 verbose parsed url   href: '~1.0.0' }
+748 verbose addNamed [ 'core-util-is', '~1.0.0' ]
+749 verbose addNamed [ null, '>=1.0.0 <1.1.0' ]
+750 silly lockFile 577b60c4-core-util-is-1-0-0 core-util-is@~1.0.0
+751 verbose lock core-util-is@~1.0.0 /root/.npm/577b60c4-core-util-is-1-0-0.lock
+752 silly addNameRange { name: 'inherits', range: '>=2.0.3 <2.1.0', hasData: false }
+753 silly addNameRange { name: 'isarray', range: '>=1.0.0 <1.1.0', hasData: false }
+754 silly addNameRange { name: 'process-nextick-args',
+754 silly addNameRange   range: '>=1.0.6 <1.1.0',
+754 silly addNameRange   hasData: false }
+755 silly addNameRange { name: 'safe-buffer', range: '>=5.1.1 <5.2.0', hasData: false }
+756 silly addNameRange { name: 'string_decoder',
+756 silly addNameRange   range: '>=1.0.3 <1.1.0',
+756 silly addNameRange   hasData: false }
+757 silly addNameRange { name: 'util-deprecate',
+757 silly addNameRange   range: '>=1.0.1 <1.1.0',
+757 silly addNameRange   hasData: false }
+758 silly addNameRange { name: 'core-util-is', range: '>=1.0.0 <1.1.0', hasData: false }
+759 verbose request where is /inherits
+760 verbose request registry https://registry.npmjs.org/
+761 verbose url raw /inherits
+762 verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+763 verbose url resolved https://registry.npmjs.org/inherits
+764 verbose request where is https://registry.npmjs.org/inherits
+765 info trying registry request attempt 1 at 23:43:26
+766 http GET https://registry.npmjs.org/inherits
+767 verbose request where is /isarray
+768 verbose request registry https://registry.npmjs.org/
+769 verbose url raw /isarray
+770 verbose url resolving [ 'https://registry.npmjs.org/', './isarray' ]
+771 verbose url resolved https://registry.npmjs.org/isarray
+772 verbose request where is https://registry.npmjs.org/isarray
+773 info trying registry request attempt 1 at 23:43:26
+774 http GET https://registry.npmjs.org/isarray
+775 verbose request where is /process-nextick-args
+776 verbose request registry https://registry.npmjs.org/
+777 verbose url raw /process-nextick-args
+778 verbose url resolving [ 'https://registry.npmjs.org/', './process-nextick-args' ]
+779 verbose url resolved https://registry.npmjs.org/process-nextick-args
+780 verbose request where is https://registry.npmjs.org/process-nextick-args
+781 info trying registry request attempt 1 at 23:43:26
+782 http GET https://registry.npmjs.org/process-nextick-args
+783 verbose request where is /safe-buffer
+784 verbose request registry https://registry.npmjs.org/
+785 verbose url raw /safe-buffer
+786 verbose url resolving [ 'https://registry.npmjs.org/', './safe-buffer' ]
+787 verbose url resolved https://registry.npmjs.org/safe-buffer
+788 verbose request where is https://registry.npmjs.org/safe-buffer
+789 info trying registry request attempt 1 at 23:43:26
+790 http GET https://registry.npmjs.org/safe-buffer
+791 verbose request where is /string_decoder
+792 verbose request registry https://registry.npmjs.org/
+793 verbose url raw /string_decoder
+794 verbose url resolving [ 'https://registry.npmjs.org/', './string_decoder' ]
+795 verbose url resolved https://registry.npmjs.org/string_decoder
+796 verbose request where is https://registry.npmjs.org/string_decoder
+797 info trying registry request attempt 1 at 23:43:26
+798 http GET https://registry.npmjs.org/string_decoder
+799 verbose request where is /util-deprecate
+800 verbose request registry https://registry.npmjs.org/
+801 verbose url raw /util-deprecate
+802 verbose url resolving [ 'https://registry.npmjs.org/', './util-deprecate' ]
+803 verbose url resolved https://registry.npmjs.org/util-deprecate
+804 verbose request where is https://registry.npmjs.org/util-deprecate
+805 info trying registry request attempt 1 at 23:43:26
+806 http GET https://registry.npmjs.org/util-deprecate
+807 verbose request where is /core-util-is
+808 verbose request registry https://registry.npmjs.org/
+809 verbose url raw /core-util-is
+810 verbose url resolving [ 'https://registry.npmjs.org/', './core-util-is' ]
+811 verbose url resolved https://registry.npmjs.org/core-util-is
+812 verbose request where is https://registry.npmjs.org/core-util-is
+813 info trying registry request attempt 1 at 23:43:26
+814 http GET https://registry.npmjs.org/core-util-is
+815 silly lockFile adbd9d04-gistry-npmjs-org-ms-ms-2-0-0-tgz https://registry.npmjs.org/ms/-/ms-2.0.0.tgz
+816 verbose lock https://registry.npmjs.org/ms/-/ms-2.0.0.tgz /root/.npm/adbd9d04-gistry-npmjs-org-ms-ms-2-0-0-tgz.lock
+817 verbose addRemoteTarball [ 'https://registry.npmjs.org/ms/-/ms-2.0.0.tgz',
+817 verbose addRemoteTarball   '5608aeadfc00be6c2901df5f9861788de0d597c8' ]
+818 info retry fetch attempt 1 at 23:43:26
+819 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/ms/-/ms-2.0.0.tgz
+820 http GET https://registry.npmjs.org/ms/-/ms-2.0.0.tgz
+821 http 200 https://registry.npmjs.org/util-deprecate
+822 silly registry.get cb [ 200,
+822 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+822 silly registry.get     server: 'UploadServer',
+822 silly registry.get     'cache-control': 'max-age=300',
+822 silly registry.get     'last-modified': 'Wed, 14 Jun 2017 14:28:22 GMT',
+822 silly registry.get     etag: '"59414806-16e7"',
+822 silly registry.get     'content-length': '5863',
+822 silly registry.get     'accept-ranges': 'bytes',
+822 silly registry.get     date: 'Wed, 06 Dec 2017 23:43:26 GMT',
+822 silly registry.get     via: '1.1 varnish',
+822 silly registry.get     age: '1294',
+822 silly registry.get     connection: 'close',
+822 silly registry.get     'x-served-by': 'cache-gru17122-GRU',
+822 silly registry.get     'x-cache': 'HIT',
+822 silly registry.get     'x-cache-hits': '12',
+822 silly registry.get     'x-timer': 'S1512603807.874714,VS0,VE0',
+822 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+823 http 200 https://registry.npmjs.org/isarray
+824 silly registry.get cb [ 200,
+824 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+824 silly registry.get     server: 'UploadServer',
+824 silly registry.get     'cache-control': 'max-age=300',
+824 silly registry.get     'last-modified': 'Wed, 12 Jul 2017 8:52:36 GMT',
+824 silly registry.get     etag: '"5965e354-286a"',
+824 silly registry.get     'content-length': '10346',
+824 silly registry.get     'accept-ranges': 'bytes',
+824 silly registry.get     date: 'Wed, 06 Dec 2017 23:43:26 GMT',
+824 silly registry.get     via: '1.1 varnish',
+824 silly registry.get     age: '1270',
+824 silly registry.get     connection: 'close',
+824 silly registry.get     'x-served-by': 'cache-gru17131-GRU',
+824 silly registry.get     'x-cache': 'HIT',
+824 silly registry.get     'x-cache-hits': '22',
+824 silly registry.get     'x-timer': 'S1512603807.883667,VS0,VE0',
+824 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+825 http 200 https://registry.npmjs.org/string_decoder
+826 silly registry.get cb [ 200,
+826 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+826 silly registry.get     server: 'UploadServer',
+826 silly registry.get     'cache-control': 'max-age=300',
+826 silly registry.get     'last-modified': 'Thu, 22 Jun 2017 18:36:15 GMT',
+826 silly registry.get     etag: '"594c0e1f-3a37"',
+826 silly registry.get     'content-length': '14903',
+826 silly registry.get     'accept-ranges': 'bytes',
+826 silly registry.get     date: 'Wed, 06 Dec 2017 23:43:26 GMT',
+826 silly registry.get     via: '1.1 varnish',
+826 silly registry.get     age: '1374',
+826 silly registry.get     connection: 'close',
+826 silly registry.get     'x-served-by': 'cache-gru17122-GRU',
+826 silly registry.get     'x-cache': 'HIT',
+826 silly registry.get     'x-cache-hits': '24',
+826 silly registry.get     'x-timer': 'S1512603807.885813,VS0,VE0',
+826 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+827 http 200 https://registry.npmjs.org/inherits
+828 silly registry.get cb [ 200,
+828 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+828 silly registry.get     server: 'UploadServer',
+828 silly registry.get     'cache-control': 'max-age=300',
+828 silly registry.get     'last-modified': 'Tue, 24 Oct 2017 23:49:01 GMT',
+828 silly registry.get     etag: '"59efd16d-2246"',
+828 silly registry.get     'content-length': '8774',
+828 silly registry.get     'accept-ranges': 'bytes',
+828 silly registry.get     date: 'Wed, 06 Dec 2017 23:43:26 GMT',
+828 silly registry.get     via: '1.1 varnish',
+828 silly registry.get     age: '1129',
+828 silly registry.get     connection: 'close',
+828 silly registry.get     'x-served-by': 'cache-gru17125-GRU',
+828 silly registry.get     'x-cache': 'HIT',
+828 silly registry.get     'x-cache-hits': '18',
+828 silly registry.get     'x-timer': 'S1512603807.895414,VS0,VE0',
+828 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+829 http 200 https://registry.npmjs.org/process-nextick-args
+830 silly registry.get cb [ 200,
+830 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+830 silly registry.get     server: 'UploadServer',
+830 silly registry.get     'cache-control': 'max-age=300',
+830 silly registry.get     'last-modified': 'Tue, 1 Nov 2016 18:02:33 GMT',
+830 silly registry.get     etag: '"5818d8b9-247f"',
+830 silly registry.get     'content-length': '9343',
+830 silly registry.get     'accept-ranges': 'bytes',
+830 silly registry.get     date: 'Wed, 06 Dec 2017 23:43:26 GMT',
+830 silly registry.get     via: '1.1 varnish',
+830 silly registry.get     age: '1294',
+830 silly registry.get     connection: 'close',
+830 silly registry.get     'x-served-by': 'cache-gru17132-GRU',
+830 silly registry.get     'x-cache': 'HIT',
+830 silly registry.get     'x-cache-hits': '5',
+830 silly registry.get     'x-timer': 'S1512603807.902741,VS0,VE0',
+830 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+831 http 200 https://registry.npmjs.org/safe-buffer
+832 silly registry.get cb [ 200,
+832 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+832 silly registry.get     server: 'UploadServer',
+832 silly registry.get     'cache-control': 'max-age=300',
+832 silly registry.get     'last-modified': 'Tue, 28 Nov 2017 7:26:33 GMT',
+832 silly registry.get     etag: '"5a1d0fa9-7a5b"',
+832 silly registry.get     'content-length': '31323',
+832 silly registry.get     'accept-ranges': 'bytes',
+832 silly registry.get     date: 'Wed, 06 Dec 2017 23:43:26 GMT',
+832 silly registry.get     via: '1.1 varnish',
+832 silly registry.get     age: '949',
+832 silly registry.get     connection: 'close',
+832 silly registry.get     'x-served-by': 'cache-gru17131-GRU',
+832 silly registry.get     'x-cache': 'HIT',
+832 silly registry.get     'x-cache-hits': '11',
+832 silly registry.get     'x-timer': 'S1512603807.884563,VS0,VE0',
+832 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+833 http 200 https://registry.npmjs.org/core-util-is
+834 silly registry.get cb [ 200,
+834 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+834 silly registry.get     server: 'UploadServer',
+834 silly registry.get     'cache-control': 'max-age=300',
+834 silly registry.get     'last-modified': 'Tue, 9 May 2017 7:13:14 GMT',
+834 silly registry.get     etag: '"59116c0a-ec5"',
+834 silly registry.get     'content-length': '3781',
+834 silly registry.get     'accept-ranges': 'bytes',
+834 silly registry.get     date: 'Wed, 06 Dec 2017 23:43:26 GMT',
+834 silly registry.get     via: '1.1 varnish',
+834 silly registry.get     age: '1294',
+834 silly registry.get     connection: 'close',
+834 silly registry.get     'x-served-by': 'cache-gru17124-GRU',
+834 silly registry.get     'x-cache': 'HIT',
+834 silly registry.get     'x-cache-hits': '1',
+834 silly registry.get     'x-timer': 'S1512603807.902985,VS0,VE0',
+834 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+835 http 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz
+836 silly addNameRange number 2 { name: 'util-deprecate',
+836 silly addNameRange   range: '>=1.0.1 <1.1.0',
+836 silly addNameRange   hasData: true }
+837 silly addNameRange versions [ 'util-deprecate', [ '1.0.0', '1.0.1', '1.0.2' ] ]
+838 verbose addNamed [ 'util-deprecate', '1.0.2' ]
+839 verbose addNamed [ '1.0.2', '1.0.2' ]
+840 silly lockFile 30fc1e6b-util-deprecate-1-0-2 util-deprecate@1.0.2
+841 verbose lock util-deprecate@1.0.2 /root/.npm/30fc1e6b-util-deprecate-1-0-2.lock
+842 silly addNameRange number 2 { name: 'isarray', range: '>=1.0.0 <1.1.0', hasData: true }
+843 silly addNameRange versions [ 'isarray',
+843 silly addNameRange   [ '0.0.0', '0.0.1', '1.0.0', '2.0.0', '2.0.1', '2.0.2' ] ]
+844 verbose addNamed [ 'isarray', '1.0.0' ]
+845 verbose addNamed [ '1.0.0', '1.0.0' ]
+846 silly lockFile 61d13322-isarray-1-0-0 isarray@1.0.0
+847 verbose lock isarray@1.0.0 /root/.npm/61d13322-isarray-1-0-0.lock
+848 silly addNameRange number 2 { name: 'string_decoder',
+848 silly addNameRange   range: '>=1.0.3 <1.1.0',
+848 silly addNameRange   hasData: true }
+849 silly addNameRange versions [ 'string_decoder',
+849 silly addNameRange   [ '0.0.0',
+849 silly addNameRange     '0.0.1',
+849 silly addNameRange     '0.10.24',
+849 silly addNameRange     '0.11.10',
+849 silly addNameRange     '0.10.25',
+849 silly addNameRange     '0.11.10-1',
+849 silly addNameRange     '0.10.25-1',
+849 silly addNameRange     '0.10.31',
+849 silly addNameRange     '1.0.0',
+849 silly addNameRange     '1.0.1',
+849 silly addNameRange     '1.0.2',
+849 silly addNameRange     '1.0.3' ] ]
+850 verbose addNamed [ 'string_decoder', '1.0.3' ]
+851 verbose addNamed [ '1.0.3', '1.0.3' ]
+852 silly lockFile d22b488a-string-decoder-1-0-3 string_decoder@1.0.3
+853 verbose lock string_decoder@1.0.3 /root/.npm/d22b488a-string-decoder-1-0-3.lock
+854 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.3 <2.1.0', hasData: true }
+855 silly addNameRange versions [ 'inherits',
+855 silly addNameRange   [ '1.0.0', '2.0.0', '2.0.1', '1.0.1', '1.0.2', '2.0.3' ] ]
+856 verbose addNamed [ 'inherits', '2.0.3' ]
+857 verbose addNamed [ '2.0.3', '2.0.3' ]
+858 silly lockFile 92ff4e28-inherits-2-0-3 inherits@2.0.3
+859 verbose lock inherits@2.0.3 /root/.npm/92ff4e28-inherits-2-0-3.lock
+860 silly addNameRange number 2 { name: 'process-nextick-args',
+860 silly addNameRange   range: '>=1.0.6 <1.1.0',
+860 silly addNameRange   hasData: true }
+861 silly addNameRange versions [ 'process-nextick-args',
+861 silly addNameRange   [ '1.0.0',
+861 silly addNameRange     '1.0.1',
+861 silly addNameRange     '1.0.2',
+861 silly addNameRange     '1.0.3',
+861 silly addNameRange     '1.0.4',
+861 silly addNameRange     '1.0.5',
+861 silly addNameRange     '1.0.6',
+861 silly addNameRange     '1.0.7' ] ]
+862 verbose addNamed [ 'process-nextick-args', '1.0.7' ]
+863 verbose addNamed [ '1.0.7', '1.0.7' ]
+864 silly lockFile ebee2f38-process-nextick-args-1-0-7 process-nextick-args@1.0.7
+865 verbose lock process-nextick-args@1.0.7 /root/.npm/ebee2f38-process-nextick-args-1-0-7.lock
+866 silly addNameRange number 2 { name: 'safe-buffer', range: '>=5.1.1 <5.2.0', hasData: true }
+867 silly addNameRange versions [ 'safe-buffer',
+867 silly addNameRange   [ '1.0.0',
+867 silly addNameRange     '2.0.0',
+867 silly addNameRange     '3.0.0',
+867 silly addNameRange     '4.0.0',
+867 silly addNameRange     '5.0.0',
+867 silly addNameRange     '5.0.1',
+867 silly addNameRange     '5.1.0',
+867 silly addNameRange     '5.1.1' ] ]
+868 verbose addNamed [ 'safe-buffer', '5.1.1' ]
+869 verbose addNamed [ '5.1.1', '5.1.1' ]
+870 silly lockFile 56731451-safe-buffer-5-1-1 safe-buffer@5.1.1
+871 verbose lock safe-buffer@5.1.1 /root/.npm/56731451-safe-buffer-5-1-1.lock
+872 silly addNameRange number 2 { name: 'core-util-is', range: '>=1.0.0 <1.1.0', hasData: true }
+873 silly addNameRange versions [ 'core-util-is', [ '1.0.0', '1.0.1', '1.0.2' ] ]
+874 verbose addNamed [ 'core-util-is', '1.0.2' ]
+875 verbose addNamed [ '1.0.2', '1.0.2' ]
+876 silly lockFile 250fbf62-core-util-is-1-0-2 core-util-is@1.0.2
+877 verbose lock core-util-is@1.0.2 /root/.npm/250fbf62-core-util-is-1-0-2.lock
+878 silly lockFile 5c3d9e1d-precate-util-deprecate-1-0-2-tgz https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz
+879 verbose lock https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz /root/.npm/5c3d9e1d-precate-util-deprecate-1-0-2-tgz.lock
+880 silly lockFile 6fa39274-js-org-isarray-isarray-1-0-0-tgz https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz
+881 verbose lock https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz /root/.npm/6fa39274-js-org-isarray-isarray-1-0-0-tgz.lock
+882 silly lockFile b65e2020-decoder-string-decoder-1-0-3-tgz https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz
+883 verbose lock https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz /root/.npm/b65e2020-decoder-string-decoder-1-0-3-tgz.lock
+884 silly lockFile c4e2ff97--org-inherits-inherits-2-0-3-tgz https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz
+885 verbose lock https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz /root/.npm/c4e2ff97--org-inherits-inherits-2-0-3-tgz.lock
+886 silly lockFile 289daa1b-s-process-nextick-args-1-0-7-tgz https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz
+887 verbose lock https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz /root/.npm/289daa1b-s-process-nextick-args-1-0-7-tgz.lock
+888 verbose addRemoteTarball [ 'https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz',
+888 verbose addRemoteTarball   '450d4dc9fa70de732762fbd2d4a28981419a0ccf' ]
+889 silly lockFile 4be474c9-afe-buffer-safe-buffer-5-1-1-tgz https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz
+890 verbose lock https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz /root/.npm/4be474c9-afe-buffer-safe-buffer-5-1-1-tgz.lock
+891 silly lockFile 1b35d5d1-e-util-is-core-util-is-1-0-2-tgz https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz
+892 verbose lock https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz /root/.npm/1b35d5d1-e-util-is-core-util-is-1-0-2-tgz.lock
+893 verbose addRemoteTarball [ 'https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz',
+893 verbose addRemoteTarball   'bb935d48582cba168c06834957a54a3e07124f11' ]
+894 verbose addRemoteTarball [ 'https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz',
+894 verbose addRemoteTarball   '0fc67d7c141825de94282dd536bec6b9bce860ab' ]
+895 verbose addRemoteTarball [ 'https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz',
+895 verbose addRemoteTarball   '633c2c83e3da42a502f52466022480f4208261de' ]
+896 verbose addRemoteTarball [ 'https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz',
+896 verbose addRemoteTarball   '150e20b756590ad3f91093f25a4f2ad8bff30ba3' ]
+897 verbose addRemoteTarball [ 'https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz',
+897 verbose addRemoteTarball   '893312af69b2123def71f57889001671eeb2c853' ]
+898 verbose addRemoteTarball [ 'https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz',
+898 verbose addRemoteTarball   'b5fd54220aa2bc5ab57aab7140c940754503c1a7' ]
+899 info retry fetch attempt 1 at 23:43:27
+900 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz
+901 info retry fetch attempt 1 at 23:43:27
+902 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/isarray/-/isarray-1.0.0.tgz
+903 info retry fetch attempt 1 at 23:43:27
+904 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz
+905 info retry fetch attempt 1 at 23:43:27
+906 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/inherits/-/inherits-2.0.3.tgz
+907 info retry fetch attempt 1 at 23:43:27
+908 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz
+909 http GET https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz
+910 info retry fetch attempt 1 at 23:43:27
+911 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz
+912 info retry fetch attempt 1 at 23:43:27
+913 verbose fetch to= /tmp/npm-20738-IICKlgiB/registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz
+914 http GET https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz
+915 http GET https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz
+916 http GET https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz
+917 http GET https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz
+918 http GET https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz
+919 http GET https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz
+920 silly lockFile adbd9d04-gistry-npmjs-org-ms-ms-2-0-0-tgz https://registry.npmjs.org/ms/-/ms-2.0.0.tgz
+921 silly lockFile adbd9d04-gistry-npmjs-org-ms-ms-2-0-0-tgz https://registry.npmjs.org/ms/-/ms-2.0.0.tgz
+922 silly lockFile 75aee418-ms-2-0-0 ms@2.0.0
+923 silly lockFile 75aee418-ms-2-0-0 ms@2.0.0
+924 silly resolved [ { name: 'ms',
+924 silly resolved     version: '2.0.0',
+924 silly resolved     description: 'Tiny milisecond conversion utility',
+924 silly resolved     repository: { type: 'git', url: 'git+https://github.com/zeit/ms.git' },
+924 silly resolved     main: './index',
+924 silly resolved     files: [ 'index.js' ],
+924 silly resolved     scripts:
+924 silly resolved      { precommit: 'lint-staged',
+924 silly resolved        lint: 'eslint lib/* bin/*',
+924 silly resolved        test: 'mocha tests.js' },
+924 silly resolved     eslintConfig: { extends: 'eslint:recommended', env: [Object] },
+924 silly resolved     'lint-staged': { '*.js': [Object] },
+924 silly resolved     license: 'MIT',
+924 silly resolved     devDependencies:
+924 silly resolved      { eslint: '3.19.0',
+924 silly resolved        'expect.js': '0.3.1',
+924 silly resolved        husky: '0.13.3',
+924 silly resolved        'lint-staged': '3.4.1',
+924 silly resolved        mocha: '3.4.1' },
+924 silly resolved     gitHead: '9b88d1568a52ec9bb67ecc8d2aa224fa38fd41f4',
+924 silly resolved     bugs: { url: 'https://github.com/zeit/ms/issues' },
+924 silly resolved     homepage: 'https://github.com/zeit/ms#readme',
+924 silly resolved     _id: 'ms@2.0.0',
+924 silly resolved     _shasum: '5608aeadfc00be6c2901df5f9861788de0d597c8',
+924 silly resolved     _from: 'ms@2.0.0',
+924 silly resolved     _npmVersion: '4.2.0',
+924 silly resolved     _nodeVersion: '7.8.0',
+924 silly resolved     _npmUser: { name: 'leo', email: 'leo@zeit.co' },
+924 silly resolved     dist:
+924 silly resolved      { shasum: '5608aeadfc00be6c2901df5f9861788de0d597c8',
+924 silly resolved        tarball: 'https://registry.npmjs.org/ms/-/ms-2.0.0.tgz' },
+924 silly resolved     maintainers: [ [Object], [Object] ],
+924 silly resolved     _npmOperationalInternal:
+924 silly resolved      { host: 'packages-18-east.internal.npmjs.com',
+924 silly resolved        tmp: 'tmp/ms-2.0.0.tgz_1494937565215_0.34005374647676945' },
+924 silly resolved     directories: {},
+924 silly resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-2.0.0.tgz' } ]
+925 info install ms@2.0.0 into /home/pi/orelhao/node_modules/speaker/node_modules/debug
+926 info installOne ms@2.0.0
+927 verbose node_modules/speaker/node_modules/debug/node_modules/ms unbuild
+928 verbose tar unpack /root/.npm/ms/2.0.0/package.tgz
+929 silly lockFile 22c01a46-de-modules-debug-node-modules-ms tar:///home/pi/orelhao/node_modules/speaker/node_modules/debug/node_modules/ms
+930 verbose lock tar:///home/pi/orelhao/node_modules/speaker/node_modules/debug/node_modules/ms /root/.npm/22c01a46-de-modules-debug-node-modules-ms.lock
+931 silly lockFile ee620adb-ar-root-npm-ms-2-0-0-package-tgz tar:///root/.npm/ms/2.0.0/package.tgz
+932 verbose lock tar:///root/.npm/ms/2.0.0/package.tgz /root/.npm/ee620adb-ar-root-npm-ms-2-0-0-package-tgz.lock
+933 http 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz
+934 http 200 https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz
+935 http 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz
+936 http 200 https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz
+937 http 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz
+938 silly gunzTarPerm modes [ '755', '644' ]
+939 http 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz
+940 http 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz
+941 silly gunzTarPerm extractEntry package.json
+942 silly gunzTarPerm extractEntry index.js
+943 silly gunzTarPerm extractEntry license.md
+944 silly lockFile 6fa39274-js-org-isarray-isarray-1-0-0-tgz https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz
+945 silly lockFile 6fa39274-js-org-isarray-isarray-1-0-0-tgz https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz
+946 silly lockFile c4e2ff97--org-inherits-inherits-2-0-3-tgz https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz
+947 silly lockFile c4e2ff97--org-inherits-inherits-2-0-3-tgz https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz
+948 silly lockFile 289daa1b-s-process-nextick-args-1-0-7-tgz https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz
+949 silly lockFile 289daa1b-s-process-nextick-args-1-0-7-tgz https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz
+950 silly lockFile 5c3d9e1d-precate-util-deprecate-1-0-2-tgz https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz
+951 silly lockFile 5c3d9e1d-precate-util-deprecate-1-0-2-tgz https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz
+952 silly lockFile 61d13322-isarray-1-0-0 isarray@1.0.0
+953 silly lockFile 61d13322-isarray-1-0-0 isarray@1.0.0
+954 silly lockFile 92ff4e28-inherits-2-0-3 inherits@2.0.3
+955 silly lockFile 92ff4e28-inherits-2-0-3 inherits@2.0.3
+956 silly lockFile b65e2020-decoder-string-decoder-1-0-3-tgz https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz
+957 silly lockFile b65e2020-decoder-string-decoder-1-0-3-tgz https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz
+958 silly lockFile ebee2f38-process-nextick-args-1-0-7 process-nextick-args@1.0.7
+959 silly lockFile ebee2f38-process-nextick-args-1-0-7 process-nextick-args@1.0.7
+960 silly lockFile 30fc1e6b-util-deprecate-1-0-2 util-deprecate@1.0.2
+961 silly lockFile 30fc1e6b-util-deprecate-1-0-2 util-deprecate@1.0.2
+962 silly gunzTarPerm extractEntry readme.md
+963 silly lockFile c9f174a0-isarray-1-0-0 isarray@~1.0.0
+964 silly lockFile c9f174a0-isarray-1-0-0 isarray@~1.0.0
+965 silly lockFile 38c40840-inherits-2-0-3 inherits@~2.0.3
+966 silly lockFile 38c40840-inherits-2-0-3 inherits@~2.0.3
+967 silly lockFile d22b488a-string-decoder-1-0-3 string_decoder@1.0.3
+968 silly lockFile d22b488a-string-decoder-1-0-3 string_decoder@1.0.3
+969 silly lockFile 34df6d61-process-nextick-args-1-0-6 process-nextick-args@~1.0.6
+970 silly lockFile 34df6d61-process-nextick-args-1-0-6 process-nextick-args@~1.0.6
+971 silly lockFile d0045abb-util-deprecate-1-0-1 util-deprecate@~1.0.1
+972 silly lockFile d0045abb-util-deprecate-1-0-1 util-deprecate@~1.0.1
+973 silly lockFile b6a81870-string-decoder-1-0-3 string_decoder@~1.0.3
+974 silly lockFile b6a81870-string-decoder-1-0-3 string_decoder@~1.0.3
+975 silly lockFile 4be474c9-afe-buffer-safe-buffer-5-1-1-tgz https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz
+976 silly lockFile 4be474c9-afe-buffer-safe-buffer-5-1-1-tgz https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz
+977 silly lockFile 1b35d5d1-e-util-is-core-util-is-1-0-2-tgz https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz
+978 silly lockFile 1b35d5d1-e-util-is-core-util-is-1-0-2-tgz https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz
+979 silly lockFile 56731451-safe-buffer-5-1-1 safe-buffer@5.1.1
+980 silly lockFile 56731451-safe-buffer-5-1-1 safe-buffer@5.1.1
+981 silly lockFile 250fbf62-core-util-is-1-0-2 core-util-is@1.0.2
+982 silly lockFile 250fbf62-core-util-is-1-0-2 core-util-is@1.0.2
+983 silly lockFile f473630f-safe-buffer-5-1-1 safe-buffer@~5.1.1
+984 silly lockFile f473630f-safe-buffer-5-1-1 safe-buffer@~5.1.1
+985 silly lockFile 577b60c4-core-util-is-1-0-0 core-util-is@~1.0.0
+986 silly lockFile 577b60c4-core-util-is-1-0-0 core-util-is@~1.0.0
+987 silly resolved [ { name: 'isarray',
+987 silly resolved     description: 'Array#isArray for older browsers',
+987 silly resolved     version: '1.0.0',
+987 silly resolved     repository:
+987 silly resolved      { type: 'git',
+987 silly resolved        url: 'git://github.com/juliangruber/isarray.git' },
+987 silly resolved     homepage: 'https://github.com/juliangruber/isarray',
+987 silly resolved     main: 'index.js',
+987 silly resolved     dependencies: {},
+987 silly resolved     devDependencies: { tape: '~2.13.4' },
+987 silly resolved     keywords: [ 'browser', 'isarray', 'array' ],
+987 silly resolved     author:
+987 silly resolved      { name: 'Julian Gruber',
+987 silly resolved        email: 'mail@juliangruber.com',
+987 silly resolved        url: 'http://juliangruber.com' },
+987 silly resolved     license: 'MIT',
+987 silly resolved     testling: { files: 'test.js', browsers: [Object] },
+987 silly resolved     scripts: { test: 'tape test.js' },
+987 silly resolved     gitHead: '2a23a281f369e9ae06394c0fb4d2381355a6ba33',
+987 silly resolved     bugs: { url: 'https://github.com/juliangruber/isarray/issues' },
+987 silly resolved     _id: 'isarray@1.0.0',
+987 silly resolved     _shasum: 'bb935d48582cba168c06834957a54a3e07124f11',
+987 silly resolved     _from: 'isarray@~1.0.0',
+987 silly resolved     _npmVersion: '3.3.12',
+987 silly resolved     _nodeVersion: '5.1.0',
+987 silly resolved     _npmUser: { name: 'juliangruber', email: 'julian@juliangruber.com' },
+987 silly resolved     dist:
+987 silly resolved      { shasum: 'bb935d48582cba168c06834957a54a3e07124f11',
+987 silly resolved        tarball: 'https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz' },
+987 silly resolved     maintainers: [ [Object] ],
+987 silly resolved     directories: {},
+987 silly resolved     _resolved: 'https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz' },
+987 silly resolved   { name: 'inherits',
+987 silly resolved     description: 'Browser-friendly inheritance fully compatible with standard node.js inherits()',
+987 silly resolved     version: '2.0.3',
+987 silly resolved     keywords:
+987 silly resolved      [ 'inheritance',
+987 silly resolved        'class',
+987 silly resolved        'klass',
+987 silly resolved        'oop',
+987 silly resolved        'object-oriented',
+987 silly resolved        'inherits',
+987 silly resolved        'browser',
+987 silly resolved        'browserify' ],
+987 silly resolved     main: './inherits.js',
+987 silly resolved     browser: './inherits_browser.js',
+987 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits.git' },
+987 silly resolved     license: 'ISC',
+987 silly resolved     scripts: { test: 'node test' },
+987 silly resolved     devDependencies: { tap: '^7.1.0' },
+987 silly resolved     files: [ 'inherits.js', 'inherits_browser.js' ],
+987 silly resolved     gitHead: 'e05d0fb27c61a3ec687214f0476386b765364d5f',
+987 silly resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+987 silly resolved     homepage: 'https://github.com/isaacs/inherits#readme',
+987 silly resolved     _id: 'inherits@2.0.3',
+987 silly resolved     _shasum: '633c2c83e3da42a502f52466022480f4208261de',
+987 silly resolved     _from: 'inherits@~2.0.3',
+987 silly resolved     _npmVersion: '3.10.7',
+987 silly resolved     _nodeVersion: '6.5.0',
+987 silly resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+987 silly resolved     dist:
+987 silly resolved      { shasum: '633c2c83e3da42a502f52466022480f4208261de',
+987 silly resolved        tarball: 'https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz' },
+987 silly resolved     maintainers: [ [Object] ],
+987 silly resolved     _npmOperationalInternal:
+987 silly resolved      { host: 'packages-16-east.internal.npmjs.com',
+987 silly resolved        tmp: 'tmp/inherits-2.0.3.tgz_1473295776489_0.08142363070510328' },
+987 silly resolved     directories: {},
+987 silly resolved     _resolved: 'https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz' },
+987 silly resolved   { name: 'process-nextick-args',
+987 silly resolved     version: '1.0.7',
+987 silly resolved     description: 'process.nextTick but always with args',
+987 silly resolved     main: 'index.js',
+987 silly resolved     scripts: { test: 'node test.js' },
+987 silly resolved     repository:
+987 silly resolved      { type: 'git',
+987 silly resolved        url: 'https://github.com/calvinmetcalf/process-nextick-args.git' },
+987 silly resolved     author: '',
+987 silly resolved     license: 'MIT',
+987 silly resolved     bugs: { url: 'https://github.com/calvinmetcalf/process-nextick-args/issues' },
+987 silly resolved     homepage: 'https://github.com/calvinmetcalf/process-nextick-args',
+987 silly resolved     devDependencies: { tap: '~0.2.6' },
+987 silly resolved     gitHead: '5c00899ab01dd32f93ad4b5743da33da91404f39',
+987 silly resolved     _id: 'process-nextick-args@1.0.7',
+987 silly resolved     _shasum: '150e20b756590ad3f91093f25a4f2ad8bff30ba3',
+987 silly resolved     _from: 'process-nextick-args@~1.0.6',
+987 silly resolved     _npmVersion: '3.8.6',
+987 silly resolved     _nodeVersion: '5.11.0',
+987 silly resolved     _npmUser: { name: 'cwmma', email: 'calvin.metcalf@gmail.com' },
+987 silly resolved     dist:
+987 silly resolved      { shasum: '150e20b756590ad3f91093f25a4f2ad8bff30ba3',
+987 silly resolved        tarball: 'https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz' },
+987 silly resolved     maintainers: [ [Object] ],
+987 silly resolved     _npmOperationalInternal:
+987 silly resolved      { host: 'packages-12-west.internal.npmjs.com',
+987 silly resolved        tmp: 'tmp/process-nextick-args-1.0.7.tgz_1462394251778_0.36989671061746776' },
+987 silly resolved     directories: {},
+987 silly resolved     _resolved: 'https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz' },
+987 silly resolved   { name: 'util-deprecate',
+987 silly resolved     version: '1.0.2',
+987 silly resolved     description: 'The Node.js `util.deprecate()` function with browser support',
+987 silly resolved     main: 'node.js',
+987 silly resolved     browser: 'browser.js',
+987 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+987 silly resolved     repository:
+987 silly resolved      { type: 'git',
+987 silly resolved        url: 'git://github.com/TooTallNate/util-deprecate.git' },
+987 silly resolved     keywords: [ 'util', 'deprecate', 'browserify', 'browser', 'node' ],
+987 silly resolved     author:
+987 silly resolved      { name: 'Nathan Rajlich',
+987 silly resolved        email: 'nathan@tootallnate.net',
+987 silly resolved        url: 'http://n8.io/' },
+987 silly resolved     license: 'MIT',
+987 silly resolved     bugs: { url: 'https://github.com/TooTallNate/util-deprecate/issues' },
+987 silly resolved     homepage: 'https://github.com/TooTallNate/util-deprecate',
+987 silly resolved     gitHead: '475fb6857cd23fafff20c1be846c1350abf8e6d4',
+987 silly resolved     _id: 'util-deprecate@1.0.2',
+987 silly resolved     _shasum: '450d4dc9fa70de732762fbd2d4a28981419a0ccf',
+987 silly resolved     _from: 'util-deprecate@~1.0.1',
+987 silly resolved     _npmVersion: '2.14.4',
+987 silly resolved     _nodeVersion: '4.1.2',
+987 silly resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+987 silly resolved     maintainers: [ [Object] ],
+987 silly resolved     dist:
+987 silly resolved      { shasum: '450d4dc9fa70de732762fbd2d4a28981419a0ccf',
+987 silly resolved        tarball: 'https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz' },
+987 silly resolved     directories: {},
+987 silly resolved     _resolved: 'https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz' },
+987 silly resolved   { name: 'string_decoder',
+987 silly resolved     version: '1.0.3',
+987 silly resolved     description: 'The string_decoder module from Node core',
+987 silly resolved     main: 'lib/string_decoder.js',
+987 silly resolved     dependencies: { 'safe-buffer': '~5.1.0' },
+987 silly resolved     devDependencies: { 'babel-polyfill': '^6.23.0', tap: '~0.4.8' },
+987 silly resolved     scripts: { test: 'tap test/parallel/*.js && node test/verify-dependencies' },
+987 silly resolved     repository:
+987 silly resolved      { type: 'git',
+987 silly resolved        url: 'git://github.com/rvagg/string_decoder.git' },
+987 silly resolved     homepage: 'https://github.com/rvagg/string_decoder',
+987 silly resolved     keywords: [ 'string', 'decoder', 'browser', 'browserify' ],
+987 silly resolved     license: 'MIT',
+987 silly resolved     gitHead: 'e97f24dd3d047b72b9836518e2a0788e2a6a2fdb',
+987 silly resolved     bugs: { url: 'https://github.com/rvagg/string_decoder/issues' },
+987 silly resolved     _id: 'string_decoder@1.0.3',
+987 silly resolved     _npmVersion: '5.0.3',
+987 silly resolved     _nodeVersion: '8.1.1',
+987 silly resolved     _npmUser: { name: 'cwmma', email: 'calvin.metcalf@gmail.com' },
+987 silly resolved     dist:
+987 silly resolved      { integrity: 'sha512-4AH6Z5fzNNBcH+6XDMfA/BTt87skxqJlO0lAh3Dker5zThcAxG6mKz+iGu308UKoPPQ8Dcqx/4JhujzltRa+hQ==',
+987 silly resolved        shasum: '0fc67d7c141825de94282dd536bec6b9bce860ab',
+987 silly resolved        tarball: 'https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz' },
+987 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+987 silly resolved     _npmOperationalInternal:
+987 silly resolved      { host: 's3://npm-registry-packages',
+987 silly resolved        tmp: 'tmp/string_decoder-1.0.3.tgz_1498156574101_0.8198789858724922' },
+987 silly resolved     directories: {},
+987 silly resolved     _shasum: '0fc67d7c141825de94282dd536bec6b9bce860ab',
+987 silly resolved     _from: 'string_decoder@~1.0.3',
+987 silly resolved     _resolved: 'https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz' },
+987 silly resolved   { name: 'safe-buffer',
+987 silly resolved     description: 'Safer Node.js Buffer API',
+987 silly resolved     version: '5.1.1',
+987 silly resolved     author:
+987 silly resolved      { name: 'Feross Aboukhadijeh',
+987 silly resolved        email: 'feross@feross.org',
+987 silly resolved        url: 'http://feross.org' },
+987 silly resolved     bugs: { url: 'https://github.com/feross/safe-buffer/issues' },
+987 silly resolved     devDependencies: { standard: '*', tape: '^4.0.0', zuul: '^3.0.0' },
+987 silly resolved     homepage: 'https://github.com/feross/safe-buffer',
+987 silly resolved     keywords:
+987 silly resolved      [ 'buffer',
+987 silly resolved        'buffer allocate',
+987 silly resolved        'node security',
+987 silly resolved        'safe',
+987 silly resolved        'safe-buffer',
+987 silly resolved        'security',
+987 silly resolved        'uninitialized' ],
+987 silly resolved     license: 'MIT',
+987 silly resolved     main: 'index.js',
+987 silly resolved     repository: { type: 'git', url: 'git://github.com/feross/safe-buffer.git' },
+987 silly resolved     scripts: { test: 'standard && tape test.js' },
+987 silly resolved     gitHead: '5261e0c19dd820c31dd21cb4116902b0ed0f9e57',
+987 silly resolved     _id: 'safe-buffer@5.1.1',
+987 silly resolved     _npmVersion: '5.0.3',
+987 silly resolved     _nodeVersion: '8.1.2',
+987 silly resolved     _npmUser: { name: 'feross', email: 'feross@feross.org' },
+987 silly resolved     dist:
+987 silly resolved      { integrity: 'sha512-kKvNJn6Mm93gAczWVJg7wH+wGYWNrDHdWvpUmHyEsgCtIwwo3bqPtV4tR5tuPaUhTOo/kvhVwd8XwwOllGYkbg==',
+987 silly resolved        shasum: '893312af69b2123def71f57889001671eeb2c853',
+987 silly resolved        tarball: 'https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz' },
+987 silly resolved     maintainers: [ [Object], [Object] ],
+987 silly resolved     _npmOperationalInternal:
+987 silly resolved      { host: 's3://npm-registry-packages',
+987 silly resolved        tmp: 'tmp/safe-buffer-5.1.1.tgz_1498076368476_0.22441886644810438' },
+987 silly resolved     directories: {},
+987 silly resolved     _shasum: '893312af69b2123def71f57889001671eeb2c853',
+987 silly resolved     _from: 'safe-buffer@~5.1.1',
+987 silly resolved     _resolved: 'https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz' },
+987 silly resolved   { name: 'core-util-is',
+987 silly resolved     version: '1.0.2',
+987 silly resolved     description: 'The `util.is*` functions introduced in Node v0.12.',
+987 silly resolved     main: 'lib/util.js',
+987 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/core-util-is.git' },
+987 silly resolved     keywords:
+987 silly resolved      [ 'util',
+987 silly resolved        'isBuffer',
+987 silly resolved        'isArray',
+987 silly resolved        'isNumber',
+987 silly resolved        'isString',
+987 silly resolved        'isRegExp',
+987 silly resolved        'isThis',
+987 silly resolved        'isThat',
+987 silly resolved        'polyfill' ],
+987 silly resolved     author:
+987 silly resolved      { name: 'Isaac Z. Schlueter',
+987 silly resolved        email: 'i@izs.me',
+987 silly resolved        url: 'http://blog.izs.me/' },
+987 silly resolved     license: 'MIT',
+987 silly resolved     bugs: { url: 'https://github.com/isaacs/core-util-is/issues' },
+987 silly resolved     scripts: { test: 'tap test.js' },
+987 silly resolved     devDependencies: { tap: '^2.3.0' },
+987 silly resolved     gitHead: 'a177da234df5638b363ddc15fa324619a38577c8',
+987 silly resolved     homepage: 'https://github.com/isaacs/core-util-is#readme',
+987 silly resolved     _id: 'core-util-is@1.0.2',
+987 silly resolved     _shasum: 'b5fd54220aa2bc5ab57aab7140c940754503c1a7',
+987 silly resolved     _from: 'core-util-is@~1.0.0',
+987 silly resolved     _npmVersion: '3.3.2',
+987 silly resolved     _nodeVersion: '4.0.0',
+987 silly resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+987 silly resolved     dist:
+987 silly resolved      { shasum: 'b5fd54220aa2bc5ab57aab7140c940754503c1a7',
+987 silly resolved        tarball: 'https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz' },
+987 silly resolved     maintainers: [ [Object] ],
+987 silly resolved     directories: {},
+987 silly resolved     _resolved: 'https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz' } ]
+988 info install isarray@1.0.0 into /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream
+989 info install inherits@2.0.3 into /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream
+990 info install process-nextick-args@1.0.7 into /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream
+991 info install util-deprecate@1.0.2 into /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream
+992 info install string_decoder@1.0.3 into /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream
+993 info install safe-buffer@5.1.1 into /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream
+994 info install core-util-is@1.0.2 into /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream
+995 info installOne isarray@1.0.0
+996 info installOne inherits@2.0.3
+997 info installOne process-nextick-args@1.0.7
+998 info installOne util-deprecate@1.0.2
+999 info installOne string_decoder@1.0.3
+1000 info installOne safe-buffer@5.1.1
+1001 info installOne core-util-is@1.0.2
+1002 verbose node_modules/speaker/node_modules/readable-stream/node_modules/isarray unbuild
+1003 verbose node_modules/speaker/node_modules/readable-stream/node_modules/inherits unbuild
+1004 verbose node_modules/speaker/node_modules/readable-stream/node_modules/process-nextick-args unbuild
+1005 verbose node_modules/speaker/node_modules/readable-stream/node_modules/util-deprecate unbuild
+1006 verbose node_modules/speaker/node_modules/readable-stream/node_modules/string_decoder unbuild
+1007 verbose node_modules/speaker/node_modules/readable-stream/node_modules/safe-buffer unbuild
+1008 verbose node_modules/speaker/node_modules/readable-stream/node_modules/core-util-is unbuild
+1009 verbose tar unpack /root/.npm/isarray/1.0.0/package.tgz
+1010 silly lockFile 657bc20c-able-stream-node-modules-isarray tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/isarray
+1011 verbose lock tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/isarray /root/.npm/657bc20c-able-stream-node-modules-isarray.lock
+1012 silly lockFile b1ccf555-ot-npm-isarray-1-0-0-package-tgz tar:///root/.npm/isarray/1.0.0/package.tgz
+1013 verbose lock tar:///root/.npm/isarray/1.0.0/package.tgz /root/.npm/b1ccf555-ot-npm-isarray-1-0-0-package-tgz.lock
+1014 verbose tar unpack /root/.npm/inherits/2.0.3/package.tgz
+1015 silly lockFile da00fff8-ble-stream-node-modules-inherits tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/inherits
+1016 verbose lock tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/inherits /root/.npm/da00fff8-ble-stream-node-modules-inherits.lock
+1017 silly lockFile df8e3b88-t-npm-inherits-2-0-3-package-tgz tar:///root/.npm/inherits/2.0.3/package.tgz
+1018 verbose lock tar:///root/.npm/inherits/2.0.3/package.tgz /root/.npm/df8e3b88-t-npm-inherits-2-0-3-package-tgz.lock
+1019 verbose tar unpack /root/.npm/process-nextick-args/1.0.7/package.tgz
+1020 silly lockFile 11a2aaf5-ode-modules-process-nextick-args tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/process-nextick-args
+1021 verbose lock tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/process-nextick-args /root/.npm/11a2aaf5-ode-modules-process-nextick-args.lock
+1022 silly lockFile d877176a-s-nextick-args-1-0-7-package-tgz tar:///root/.npm/process-nextick-args/1.0.7/package.tgz
+1023 verbose lock tar:///root/.npm/process-nextick-args/1.0.7/package.tgz /root/.npm/d877176a-s-nextick-args-1-0-7-package-tgz.lock
+1024 verbose tar unpack /root/.npm/util-deprecate/1.0.2/package.tgz
+1025 silly lockFile f2cab654-ream-node-modules-util-deprecate tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/util-deprecate
+1026 verbose lock tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/util-deprecate /root/.npm/f2cab654-ream-node-modules-util-deprecate.lock
+1027 silly lockFile c11074fa-util-deprecate-1-0-2-package-tgz tar:///root/.npm/util-deprecate/1.0.2/package.tgz
+1028 verbose lock tar:///root/.npm/util-deprecate/1.0.2/package.tgz /root/.npm/c11074fa-util-deprecate-1-0-2-package-tgz.lock
+1029 verbose tar unpack /root/.npm/string_decoder/1.0.3/package.tgz
+1030 silly lockFile 319369d5-ream-node-modules-string-decoder tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/string_decoder
+1031 verbose lock tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/string_decoder /root/.npm/319369d5-ream-node-modules-string-decoder.lock
+1032 silly lockFile 45cef8f2-string-decoder-1-0-3-package-tgz tar:///root/.npm/string_decoder/1.0.3/package.tgz
+1033 verbose lock tar:///root/.npm/string_decoder/1.0.3/package.tgz /root/.npm/45cef8f2-string-decoder-1-0-3-package-tgz.lock
+1034 verbose tar unpack /root/.npm/safe-buffer/5.1.1/package.tgz
+1035 silly lockFile 3862a8a0--stream-node-modules-safe-buffer tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/safe-buffer
+1036 verbose lock tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/safe-buffer /root/.npm/3862a8a0--stream-node-modules-safe-buffer.lock
+1037 silly lockFile ef6b5fc9-pm-safe-buffer-5-1-1-package-tgz tar:///root/.npm/safe-buffer/5.1.1/package.tgz
+1038 verbose lock tar:///root/.npm/safe-buffer/5.1.1/package.tgz /root/.npm/ef6b5fc9-pm-safe-buffer-5-1-1-package-tgz.lock
+1039 verbose tar unpack /root/.npm/core-util-is/1.0.2/package.tgz
+1040 silly lockFile 63802999-stream-node-modules-core-util-is tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/core-util-is
+1041 verbose lock tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/core-util-is /root/.npm/63802999-stream-node-modules-core-util-is.lock
+1042 silly lockFile f66db8e6-m-core-util-is-1-0-2-package-tgz tar:///root/.npm/core-util-is/1.0.2/package.tgz
+1043 verbose lock tar:///root/.npm/core-util-is/1.0.2/package.tgz /root/.npm/f66db8e6-m-core-util-is-1-0-2-package-tgz.lock
+1044 silly gunzTarPerm modes [ '755', '644' ]
+1045 silly gunzTarPerm modes [ '755', '644' ]
+1046 silly gunzTarPerm modes [ '755', '644' ]
+1047 silly gunzTarPerm modes [ '755', '644' ]
+1048 silly gunzTarPerm modes [ '755', '644' ]
+1049 silly gunzTarPerm modes [ '755', '644' ]
+1050 silly gunzTarPerm modes [ '755', '644' ]
+1051 silly gunzTarPerm extractEntry package.json
+1052 silly gunzTarPerm extractEntry package.json
+1053 silly gunzTarPerm extractEntry package.json
+1054 silly gunzTarPerm extractEntry package.json
+1055 silly gunzTarPerm extractEntry package.json
+1056 silly gunzTarPerm extractEntry package.json
+1057 silly gunzTarPerm extractEntry package.json
+1058 silly gunzTarPerm extractEntry .npmignore
+1059 silly gunzTarPerm extractEntry README.md
+1060 silly gunzTarPerm extractEntry README.md
+1061 silly gunzTarPerm extractEntry LICENSE
+1062 silly gunzTarPerm extractEntry index.js
+1063 silly gunzTarPerm extractEntry test.js
+1064 silly gunzTarPerm extractEntry README.md
+1065 silly gunzTarPerm extractEntry LICENSE
+1066 silly gunzTarPerm extractEntry .npmignore
+1067 silly gunzTarPerm extractEntry README.md
+1068 silly gunzTarPerm extractEntry README.md
+1069 silly gunzTarPerm extractEntry LICENSE
+1070 silly gunzTarPerm extractEntry index.js
+1071 silly gunzTarPerm extractEntry test.js
+1072 silly gunzTarPerm extractEntry .travis.yml
+1073 silly gunzTarPerm extractEntry README.md
+1074 silly gunzTarPerm extractEntry LICENSE
+1075 silly lockFile 22c01a46-de-modules-debug-node-modules-ms tar:///home/pi/orelhao/node_modules/speaker/node_modules/debug/node_modules/ms
+1076 silly lockFile 22c01a46-de-modules-debug-node-modules-ms tar:///home/pi/orelhao/node_modules/speaker/node_modules/debug/node_modules/ms
+1077 silly lockFile ee620adb-ar-root-npm-ms-2-0-0-package-tgz tar:///root/.npm/ms/2.0.0/package.tgz
+1078 silly lockFile ee620adb-ar-root-npm-ms-2-0-0-package-tgz tar:///root/.npm/ms/2.0.0/package.tgz
+1079 silly lockFile 846d7315-modules-speaker-node-modules-nan tar:///home/pi/orelhao/node_modules/speaker/node_modules/nan
+1080 silly lockFile 846d7315-modules-speaker-node-modules-nan tar:///home/pi/orelhao/node_modules/speaker/node_modules/nan
+1081 silly lockFile 77421fb8-r-root-npm-nan-2-8-0-package-tgz tar:///root/.npm/nan/2.8.0/package.tgz
+1082 silly lockFile 77421fb8-r-root-npm-nan-2-8-0-package-tgz tar:///root/.npm/nan/2.8.0/package.tgz
+1083 info preinstall ms@2.0.0
+1084 silly gunzTarPerm extractEntry index.js
+1085 silly gunzTarPerm extractEntry test.js
+1086 silly gunzTarPerm extractEntry inherits.js
+1087 silly gunzTarPerm extractEntry inherits_browser.js
+1088 silly gunzTarPerm extractEntry .travis.yml
+1089 silly gunzTarPerm extractEntry license.md
+1090 silly gunzTarPerm extractEntry browser.js
+1091 silly gunzTarPerm extractEntry node.js
+1092 silly gunzTarPerm extractEntry LICENSE
+1093 silly gunzTarPerm extractEntry lib/string_decoder.js
+1094 silly gunzTarPerm extractEntry test.js
+1095 silly gunzTarPerm extractEntry float.patch
+1096 info preinstall nan@2.8.0
+1097 verbose readDependencies using package.json deps
+1098 verbose readDependencies using package.json deps
+1099 silly resolved []
+1100 verbose about to build /home/pi/orelhao/node_modules/speaker/node_modules/debug/node_modules/ms
+1101 info build /home/pi/orelhao/node_modules/speaker/node_modules/debug/node_modules/ms
+1102 verbose linkStuff [ false,
+1102 verbose linkStuff   false,
+1102 verbose linkStuff   false,
+1102 verbose linkStuff   '/home/pi/orelhao/node_modules/speaker/node_modules/debug/node_modules' ]
+1103 info linkStuff ms@2.0.0
+1104 verbose linkBins ms@2.0.0
+1105 verbose linkMans ms@2.0.0
+1106 verbose rebuildBundles ms@2.0.0
+1107 info install ms@2.0.0
+1108 verbose readDependencies using package.json deps
+1109 verbose readDependencies using package.json deps
+1110 silly resolved []
+1111 verbose about to build /home/pi/orelhao/node_modules/speaker/node_modules/nan
+1112 info build /home/pi/orelhao/node_modules/speaker/node_modules/nan
+1113 verbose linkStuff [ false,
+1113 verbose linkStuff   false,
+1113 verbose linkStuff   false,
+1113 verbose linkStuff   '/home/pi/orelhao/node_modules/speaker/node_modules' ]
+1114 info linkStuff nan@2.8.0
+1115 verbose linkBins nan@2.8.0
+1116 verbose linkMans nan@2.8.0
+1117 verbose rebuildBundles nan@2.8.0
+1118 info postinstall ms@2.0.0
+1119 info install nan@2.8.0
+1120 verbose about to build /home/pi/orelhao/node_modules/speaker/node_modules/debug
+1121 info build /home/pi/orelhao/node_modules/speaker/node_modules/debug
+1122 verbose linkStuff [ false,
+1122 verbose linkStuff   false,
+1122 verbose linkStuff   false,
+1122 verbose linkStuff   '/home/pi/orelhao/node_modules/speaker/node_modules' ]
+1123 info linkStuff debug@2.6.9
+1124 verbose linkBins debug@2.6.9
+1125 verbose linkMans debug@2.6.9
+1126 verbose rebuildBundles debug@2.6.9
+1127 silly gunzTarPerm extractEntry .travis.yml
+1128 silly gunzTarPerm extractEntry Makefile
+1129 info postinstall nan@2.8.0
+1130 verbose rebuildBundles [ 'ms' ]
+1131 info install debug@2.6.9
+1132 silly gunzTarPerm extractEntry lib/util.js
+1133 silly gunzTarPerm extractEntry readme.md
+1134 silly gunzTarPerm extractEntry History.md
+1135 info postinstall debug@2.6.9
+1136 silly gunzTarPerm extractEntry component.json
+1137 silly lockFile da00fff8-ble-stream-node-modules-inherits tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/inherits
+1138 silly lockFile da00fff8-ble-stream-node-modules-inherits tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/inherits
+1139 silly lockFile df8e3b88-t-npm-inherits-2-0-3-package-tgz tar:///root/.npm/inherits/2.0.3/package.tgz
+1140 silly lockFile df8e3b88-t-npm-inherits-2-0-3-package-tgz tar:///root/.npm/inherits/2.0.3/package.tgz
+1141 silly lockFile 319369d5-ream-node-modules-string-decoder tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/string_decoder
+1142 silly lockFile 319369d5-ream-node-modules-string-decoder tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/string_decoder
+1143 silly lockFile 45cef8f2-string-decoder-1-0-3-package-tgz tar:///root/.npm/string_decoder/1.0.3/package.tgz
+1144 silly lockFile 45cef8f2-string-decoder-1-0-3-package-tgz tar:///root/.npm/string_decoder/1.0.3/package.tgz
+1145 info preinstall inherits@2.0.3
+1146 info preinstall string_decoder@1.0.3
+1147 verbose readDependencies using package.json deps
+1148 silly lockFile 11a2aaf5-ode-modules-process-nextick-args tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/process-nextick-args
+1149 silly lockFile 11a2aaf5-ode-modules-process-nextick-args tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/process-nextick-args
+1150 silly lockFile f2cab654-ream-node-modules-util-deprecate tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/util-deprecate
+1151 silly lockFile f2cab654-ream-node-modules-util-deprecate tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/util-deprecate
+1152 verbose readDependencies using package.json deps
+1153 silly resolved []
+1154 verbose about to build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/inherits
+1155 info build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/inherits
+1156 verbose linkStuff [ false,
+1156 verbose linkStuff   false,
+1156 verbose linkStuff   false,
+1156 verbose linkStuff   '/home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules' ]
+1157 info linkStuff inherits@2.0.3
+1158 verbose linkBins inherits@2.0.3
+1159 verbose linkMans inherits@2.0.3
+1160 verbose rebuildBundles inherits@2.0.3
+1161 silly lockFile d877176a-s-nextick-args-1-0-7-package-tgz tar:///root/.npm/process-nextick-args/1.0.7/package.tgz
+1162 silly lockFile d877176a-s-nextick-args-1-0-7-package-tgz tar:///root/.npm/process-nextick-args/1.0.7/package.tgz
+1163 silly lockFile c11074fa-util-deprecate-1-0-2-package-tgz tar:///root/.npm/util-deprecate/1.0.2/package.tgz
+1164 silly lockFile c11074fa-util-deprecate-1-0-2-package-tgz tar:///root/.npm/util-deprecate/1.0.2/package.tgz
+1165 verbose readDependencies using package.json deps
+1166 info install inherits@2.0.3
+1167 verbose readDependencies using package.json deps
+1168 silly resolved []
+1169 verbose about to build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/string_decoder
+1170 info build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/string_decoder
+1171 verbose linkStuff [ false,
+1171 verbose linkStuff   false,
+1171 verbose linkStuff   false,
+1171 verbose linkStuff   '/home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules' ]
+1172 info linkStuff string_decoder@1.0.3
+1173 verbose linkBins string_decoder@1.0.3
+1174 verbose linkMans string_decoder@1.0.3
+1175 verbose rebuildBundles string_decoder@1.0.3
+1176 silly lockFile 63802999-stream-node-modules-core-util-is tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/core-util-is
+1177 silly lockFile 63802999-stream-node-modules-core-util-is tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/core-util-is
+1178 info install string_decoder@1.0.3
+1179 silly lockFile 3862a8a0--stream-node-modules-safe-buffer tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/safe-buffer
+1180 silly lockFile 3862a8a0--stream-node-modules-safe-buffer tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/safe-buffer
+1181 silly lockFile f66db8e6-m-core-util-is-1-0-2-package-tgz tar:///root/.npm/core-util-is/1.0.2/package.tgz
+1182 silly lockFile f66db8e6-m-core-util-is-1-0-2-package-tgz tar:///root/.npm/core-util-is/1.0.2/package.tgz
+1183 info postinstall inherits@2.0.3
+1184 silly lockFile ef6b5fc9-pm-safe-buffer-5-1-1-package-tgz tar:///root/.npm/safe-buffer/5.1.1/package.tgz
+1185 silly lockFile ef6b5fc9-pm-safe-buffer-5-1-1-package-tgz tar:///root/.npm/safe-buffer/5.1.1/package.tgz
+1186 info preinstall process-nextick-args@1.0.7
+1187 info postinstall string_decoder@1.0.3
+1188 info preinstall util-deprecate@1.0.2
+1189 info preinstall core-util-is@1.0.2
+1190 verbose readDependencies using package.json deps
+1191 info preinstall safe-buffer@5.1.1
+1192 verbose readDependencies using package.json deps
+1193 silly resolved []
+1194 verbose about to build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/process-nextick-args
+1195 info build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/process-nextick-args
+1196 verbose linkStuff [ false,
+1196 verbose linkStuff   false,
+1196 verbose linkStuff   false,
+1196 verbose linkStuff   '/home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules' ]
+1197 info linkStuff process-nextick-args@1.0.7
+1198 verbose linkBins process-nextick-args@1.0.7
+1199 verbose linkMans process-nextick-args@1.0.7
+1200 verbose rebuildBundles process-nextick-args@1.0.7
+1201 verbose readDependencies using package.json deps
+1202 info install process-nextick-args@1.0.7
+1203 verbose readDependencies using package.json deps
+1204 silly resolved []
+1205 verbose about to build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/util-deprecate
+1206 info build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/util-deprecate
+1207 verbose linkStuff [ false,
+1207 verbose linkStuff   false,
+1207 verbose linkStuff   false,
+1207 verbose linkStuff   '/home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules' ]
+1208 info linkStuff util-deprecate@1.0.2
+1209 verbose linkBins util-deprecate@1.0.2
+1210 verbose linkMans util-deprecate@1.0.2
+1211 verbose rebuildBundles util-deprecate@1.0.2
+1212 verbose readDependencies using package.json deps
+1213 info install util-deprecate@1.0.2
+1214 verbose readDependencies using package.json deps
+1215 verbose readDependencies using package.json deps
+1216 silly resolved []
+1217 verbose about to build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/core-util-is
+1218 info build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/core-util-is
+1219 verbose linkStuff [ false,
+1219 verbose linkStuff   false,
+1219 verbose linkStuff   false,
+1219 verbose linkStuff   '/home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules' ]
+1220 info linkStuff core-util-is@1.0.2
+1221 verbose linkBins core-util-is@1.0.2
+1222 verbose linkMans core-util-is@1.0.2
+1223 verbose rebuildBundles core-util-is@1.0.2
+1224 info postinstall process-nextick-args@1.0.7
+1225 verbose readDependencies using package.json deps
+1226 silly resolved []
+1227 verbose about to build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/safe-buffer
+1228 info build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/safe-buffer
+1229 verbose linkStuff [ false,
+1229 verbose linkStuff   false,
+1229 verbose linkStuff   false,
+1229 verbose linkStuff   '/home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules' ]
+1230 info linkStuff safe-buffer@5.1.1
+1231 verbose linkBins safe-buffer@5.1.1
+1232 verbose linkMans safe-buffer@5.1.1
+1233 verbose rebuildBundles safe-buffer@5.1.1
+1234 info install core-util-is@1.0.2
+1235 info postinstall util-deprecate@1.0.2
+1236 info install safe-buffer@5.1.1
+1237 info postinstall core-util-is@1.0.2
+1238 silly lockFile 657bc20c-able-stream-node-modules-isarray tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/isarray
+1239 silly lockFile 657bc20c-able-stream-node-modules-isarray tar:///home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/isarray
+1240 info postinstall safe-buffer@5.1.1
+1241 silly lockFile b1ccf555-ot-npm-isarray-1-0-0-package-tgz tar:///root/.npm/isarray/1.0.0/package.tgz
+1242 silly lockFile b1ccf555-ot-npm-isarray-1-0-0-package-tgz tar:///root/.npm/isarray/1.0.0/package.tgz
+1243 info preinstall isarray@1.0.0
+1244 verbose readDependencies using package.json deps
+1245 verbose readDependencies using package.json deps
+1246 silly resolved []
+1247 verbose about to build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/isarray
+1248 info build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules/isarray
+1249 verbose linkStuff [ false,
+1249 verbose linkStuff   false,
+1249 verbose linkStuff   false,
+1249 verbose linkStuff   '/home/pi/orelhao/node_modules/speaker/node_modules/readable-stream/node_modules' ]
+1250 info linkStuff isarray@1.0.0
+1251 verbose linkBins isarray@1.0.0
+1252 verbose linkMans isarray@1.0.0
+1253 verbose rebuildBundles isarray@1.0.0
+1254 info install isarray@1.0.0
+1255 info postinstall isarray@1.0.0
+1256 verbose about to build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream
+1257 info build /home/pi/orelhao/node_modules/speaker/node_modules/readable-stream
+1258 verbose linkStuff [ false,
+1258 verbose linkStuff   false,
+1258 verbose linkStuff   false,
+1258 verbose linkStuff   '/home/pi/orelhao/node_modules/speaker/node_modules' ]
+1259 info linkStuff readable-stream@2.3.3
+1260 verbose linkBins readable-stream@2.3.3
+1261 verbose linkMans readable-stream@2.3.3
+1262 verbose rebuildBundles readable-stream@2.3.3
+1263 verbose rebuildBundles [ 'core-util-is',
+1263 verbose rebuildBundles   'inherits',
+1263 verbose rebuildBundles   'isarray',
+1263 verbose rebuildBundles   'process-nextick-args',
+1263 verbose rebuildBundles   'safe-buffer',
+1263 verbose rebuildBundles   'string_decoder',
+1263 verbose rebuildBundles   'util-deprecate' ]
+1264 info install readable-stream@2.3.3
+1265 info postinstall readable-stream@2.3.3
+1266 verbose about to build /home/pi/orelhao/node_modules/speaker
+1267 info build /home/pi/orelhao/node_modules/speaker
+1268 verbose linkStuff [ false, false, false, '/home/pi/orelhao/node_modules' ]
+1269 info linkStuff speaker@0.3.1
+1270 verbose linkBins speaker@0.3.1
+1271 verbose linkMans speaker@0.3.1
+1272 verbose rebuildBundles speaker@0.3.1
+1273 verbose rebuildBundles [ 'bindings', 'debug', 'nan', 'readable-stream' ]
+1274 info install speaker@0.3.1
+1275 verbose unsafe-perm in lifecycle false
+1276 info speaker@0.3.1 Failed to exec install script
+1277 verbose node_modules/speaker unbuild
+1278 warn This failure might be due to the use of legacy binary "node"
+1279 warn For further explanations, please read
+/usr/share/doc/nodejs/README.Debian
+1280 info preuninstall speaker@0.3.1
+1281 info uninstall speaker@0.3.1
+1282 verbose true,/home/pi/orelhao/node_modules,/home/pi/orelhao/node_modules unbuild speaker@0.3.1
+1283 info postuninstall speaker@0.3.1
+1284 error speaker@0.3.1 install: `node-gyp rebuild`
+1284 error Exit status 1
+1285 error Failed at the speaker@0.3.1 install script.
+1285 error This is most likely a problem with the speaker package,
+1285 error not with npm itself.
+1285 error Tell the author that this fails on your system:
+1285 error     node-gyp rebuild
+1285 error You can get their info via:
+1285 error     npm owner ls speaker
+1285 error There is likely additional logging output above.
+1286 error System Linux 4.9.59+
+1287 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "speaker"
+1288 error cwd /home/pi/orelhao
+1289 error node -v v4.8.2
+1290 error npm -v 1.4.21
+1291 error code ELIFECYCLE
+1292 verbose exit [ 1, true ]

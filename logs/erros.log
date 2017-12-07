@@ -3,3 +3,16 @@ TypeError: Cannot read property '0' of undefined
     at Object.orelhao.on (/home/pi/orelhao/index.js:351:14)
     at Object.<anonymous> (/home/pi/orelhao/index.js:312:34)
     at Timer.listOnTimeout [as ontimeout] (timers.js:110:15)
+AssertionError: null == { [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 127.0.0.1:27017' }
+    at /home/pi/orelhao/index.js:471:20
+    at /home/pi/orelhao/node_modules/mongodb/lib/mongo_client.js:341:20
+    at /home/pi/orelhao/node_modules/mongodb/lib/db.js:231:14
+    at null.<anonymous> (/home/pi/orelhao/node_modules/mongodb/lib/server.js:251:9)
+    at g (events.js:260:16)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at null.<anonymous> (/home/pi/orelhao/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:218:12)
+    at g (events.js:260:16)
+    at emitTwo (events.js:87:13)
